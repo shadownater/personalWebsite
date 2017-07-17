@@ -1,0 +1,8 @@
+myproject
+*.pyc
+staticfiles
+.env
+*~
+*.sqlite3
+.idea
+theactualsite/migrations/*
