@@ -11,5 +11,4 @@ urlpatterns = [
     url(r'^art/', views.artPage, name='artpage'),
     url(r'^programming/', views.programmingPage, name='programmingpage'),
     url(r'^admin/', include(admin.site.urls)),
-    #url(r'^theactualsite/', include('theactualsite.urls', namespace='theactualsite')),
 ]
