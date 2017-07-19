@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="{% static 'home.css' %}">
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
 </head>
 <body>
 
 <div class="container">
 
-<class id="menubar">
+<div class="row" id="menubar">
     <h2>
-    <span id="homelink">Home</span>
-    <span id="artlink">Art</span>
-    <span id="programminglink">Code</span>
+        <span class="col-sm-4" id="artlink" ><a href="http://127.0.0.1:8000/art">Art</a></span>
+        <span class="col-sm-4" id="homelink"><a href ="http://127.0.0.1:8000/">Home</a></span>
+        <span class="col-sm-4" id="programminglink"><a href="http://127.0.0.1:8000/programming">Code</a></span>
     </h2>
-</class>
+</div>
 
 <h1>Welcome to the homepage of Jillian Lovas</h1>
+
+    <img src="/static/jillianlovas.jpg" class="img-circle" width="300" height="300"></img>
 
 <p>About Me...</p>
 
