@@ -1,5 +1,5 @@
 h1{
-    color: deeppink;
+    color: pink;
 }
 
 body{
@@ -11,27 +11,27 @@ img{
     border-width: 5em;
 }
 
-#menubar{
+#artlink, #homelink, #programminglink{
     text-align: center;
     transform: skewX(-20deg);
-    background-color: coral;
+    background-color: yellowgreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    -webkit-transition: top 0.3s ease;
+    -moz-transition: top 0.3s ease;
+    -o-transition: top 0.3s ease;
+    transition: top 0.3s ease;
 }
 
-#menubar a:hover{ /*col-sm-4????*/
+#artlink:hover, #homelink:hover, #programminglink:hover{
+    /*position:relative;*/
     text-decoration: none;
-    -webkit-animation: emphasis 5s infinite; /* Safari 4.0 - 8.0 */
-    animation: emphasis 5s infinite;
+    top:10px;
+    display: inline-block;
 
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes emphasis {
-    from {top: 0px;}
-    to {top: 200px;}
-}
+.jumbotron{
 
-/* Standard syntax */
-@keyframes emphasis {
-    from {top: 0px;}
-    to {top: 200px;}
 }
