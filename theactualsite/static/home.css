@@ -3,12 +3,39 @@ h1{
 }
 
 body{
-    background-color: mediumpurple;
+    background-image: url(watercolor.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-img{
-    border: #000000;
-    border-width: 5em;
+/*
+Credit to Derek Story for his solution to centered, unstretched circle-images.
+https://stackoverflow.com/users/2479962/derek-story
+https://stackoverflow.com/questions/32477563/css-fit-rounded-circle-image-do-not-stretch-it
+@ July 20, 2017
+ */
+.myimg{
+    background-image: url(jillianlovas.jpg);
+
+    width: 500px;
+    height: 500px;
+    -webkit-border-radius: 500px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 500px;
+    -moz-background-clip: padding;
+    border-radius: 500px;
+    background-clip: padding-box;
+    margin: 7px 0 0 5px;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+
+    border: solid 1.5em black;
 }
 
 #artlink, #homelink, #programminglink{
