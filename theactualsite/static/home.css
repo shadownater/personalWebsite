@@ -2,9 +2,10 @@
     font-family: 'Dosis', sans-serif;
 }
 
-.introcontainer, .imagecontainer{
+.introcontainer{
     vertical-align: bottom;
 }
+
 
 body{
     background-image: url(watercolor.jpg);
@@ -25,7 +26,9 @@ https://stackoverflow.com/questions/32477563/css-fit-rounded-circle-image-do-not
  */
 .myimg{
     background-image: url(jillianlovas.jpg);
-    float:left;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 
     width: 500px;
     height: 500px;
@@ -35,8 +38,6 @@ https://stackoverflow.com/questions/32477563/css-fit-rounded-circle-image-do-not
     -moz-background-clip: padding;
     border-radius: 500px;
     background-clip: padding-box;
-    margin: 7px 0 0 5px;
-    float: left;
     background-size: cover;
     background-position: center center;
 
@@ -67,4 +68,19 @@ https://stackoverflow.com/questions/32477563/css-fit-rounded-circle-image-do-not
 .jumbotron{
     background-color: rgb(0, 0, 0);
     background-color: rgba(255, 68, 68, 0);
+}
+
+.card-block{
+    border: solid 3px black;
+    border-radius: 25px;
+
+    padding: 10px;
+}
+
+.container-fluid{
+    background-color: black;
+}
+
+.padme{
+    padding-top: 2em;
 }
