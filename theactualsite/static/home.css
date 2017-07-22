@@ -1,5 +1,23 @@
 #introtext{
     font-family: 'Dosis', sans-serif;
+    color: black;
+}
+
+.aboutme{
+    font-family: 'Dosis', sans-serif;
+    color:white;
+}
+
+#minitext{
+    font-family: 'Didact Gothic';font-size: 22px;
+    font-color:grey;
+}
+
+#paragraph{
+    font-family: 'Didact Gothic';font-size: 18px;
+    padding-top: 1em;
+    height:400px;
+    overflow-y:scroll;
 }
 
 .introcontainer{
@@ -46,7 +64,7 @@ https://stackoverflow.com/questions/32477563/css-fit-rounded-circle-image-do-not
 
 #artlink, #homelink, #programminglink{
     text-align: center;
-    transform: skewX(-20deg);
+    /*transform: skewX(-20deg);
     background-color: yellowgreen;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -55,6 +73,7 @@ https://stackoverflow.com/questions/32477563/css-fit-rounded-circle-image-do-not
     -moz-transition: top 0.3s ease;
     -o-transition: top 0.3s ease;
     transition: top 0.3s ease;
+*/
 }
 
 #artlink:hover, #homelink:hover, #programminglink:hover{
@@ -75,12 +94,23 @@ https://stackoverflow.com/questions/32477563/css-fit-rounded-circle-image-do-not
     border-radius: 25px;
 
     padding: 10px;
+    color:white;
 }
 
-.container-fluid{
+.aboutarea{
     background-color: black;
 }
 
 .padme{
     padding-top: 2em;
 }
+
+.bgcredit{
+    text-align: center;
+
+}
+
+.navbar{
+    font-size: 22px;
+}
+

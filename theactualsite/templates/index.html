@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
     <link rel="stylesheet" href="{% static 'home.css' %}">
 
     <meta charset="UTF-8">
@@ -15,15 +16,19 @@
 
 
 
-<!--<div class="row" id="menubar"> -->
-    <div class="container">
-        <h2>
-            <a href="http://127.0.0.1:8000/art"><span class="col-sm-4" id="artlink" >Art</span></a>
-            <a href ="http://127.0.0.1:8000/"><span class="col-sm-4" id="homelink">Home</span></a>
-            <a href="http://127.0.0.1:8000/programming"><span class="col-sm-4" id="programminglink">Code</span></a>
-        </h2>
+
+    <div class="navbar navbar-inverse bg-primary">
+        <div class="container-fluid">
+            <div class="navbar-header"></div>
+
+            <ul class="nav nav-justified">
+                <li><a href="http://127.0.0.1:8000/art">Art</a></li>
+                <li class="active"><a href="http://127.0.0.1:8000/">Home</a></li>
+                <li><a href="http://127.0.0.1:8000/programming">Code</a></li>
+            </ul>
+        </div>
     </div>
-<!--</div> -->
+
 
     <p></p>
 
@@ -33,52 +38,73 @@
         </div>
     </div>
 
-    <div class="row">
+
     <div class="col-md-6">
 
     </div>
     <div class="col-md-6 introcontainer">
         <div class="jumbotron">
             <h1 class="display-3" id="introtext">Welcome to the homepage of<br>Jillian Lovas</h1>
-                <h2><small>A portfolio website of the art and coding projects I do</small></h2>
+                <h2 id="minitext">A portfolio website of<br>my art and coding projects.</h2>
 
         </div>
     </div>
-    </div>
+
 
     <div class="container">
         <div class="col-md-12 padme"></div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid aboutarea">
 
-        <div class="col-md-6">
-            <div class="card">
-                <div class="card-block">
-                <h2 class="card-title">About Me</h2>
-                    <p>
-                        My name is Jillian Lovas! I'm an artist programmer, programming artist!
-                        I'm a recent graduate from the University of Alberta with a degree in Specialization
+        <div class="col-md-12 padme"></div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-block">
+                    <h1 class="card-title aboutme">About Me</h1>
+                        <p id="paragraph">
+                        I'm an artist programmer, programming artist!
+                        <br>I'm a recent graduate from the University of Alberta with a degree in Specialization
                         in Computing Science. I enjoy creating things, so I initially thought I would be completing a
                         bachelor of Arts at my local college. My first year wasn't very satisfying, so I switched into the
                         sciences. I craved the problem-solving I used to do in my math classes, but I still wanted to be
                         creative in my field. Computing science was the best option, and it's really allowed me to combine
                         my interests in the best way possible.
-                        I made this website in Django, and I used Bootstrap for the first time for the layout.
-                    </p>
+                        <br>I can code in Java, C, Python, Javascript, Html, and Css. I think my favourite is Java, but lately
+                            I've been using Python mostly, so it I like that one a lot too. SQL. Unity.
+                        <br>I made this website in Django, and I used Bootstrap for the first time for the layout.
+                        <br>As for art, I mostly work digitally in Krita. I love Illustrator and Photoshop is pretty great too.
+                            I used to work as a graphic designer for a few summers between my studies. I personally draw my own
+                            characters or characters from anime/games.
+                        <br>Thank you for visiting!
+                        </p>
+                    </div>
                 </div>
             </div>
+            <div class="col-md-6 imagecontainer">
+                <div class="myimg center-block" alt="A picture from when I competed in post-secondary graphic design at Skills"></div>
+            </div>
+
+            <div class="col-md-12 padme"></div>
+            <div class="col-md-12 padme"></div>
+
+            <div class="col-md-6">
+                <a class="btn btn-primary btn-block btn-lg" href="#" role="button">Contact Me</a>
+            </div>
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-12 padme"></div>
+
+            <div class="col-md-12">
+                <div class="center-block bgcredit">
+                    <a href='http://www.freepik.com/free-photo/artistic-purple-watercolor-texture_1014794.htm'>Background designed by Freepik</a>
+                </div>
+            </div>
+
         </div>
-        <div class="col-md-6 imagecontainer">
-            <div class="myimg center-block"></div>
-        </div>
-    </div>
-
-<a class="btn btn-default" href="#" role="button">Contact Me</a>
 
 
-
-<a href='http://www.freepik.com/free-photo/artistic-purple-watercolor-texture_1014794.htm'>Background designed by Freepik</a>
 
 </body>
 </html>
