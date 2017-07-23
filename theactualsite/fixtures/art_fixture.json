@@ -1,0 +1,20 @@
+[
+  {
+    "model": "theactualsite.art",
+    "pk": "1",
+    "fields": {
+      "title": "Icy",
+      "description": "A picture from quite a while ago",
+      "madeWith": "Krita",
+      "year": "2014"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "1",
+    "fields": {
+      "myImg": "theactualsite/static/jillianlovas.jpg",
+      "associated_piece": "1"
+    }
+  }
+]

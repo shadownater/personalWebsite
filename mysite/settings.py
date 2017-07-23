@@ -107,3 +107,7 @@ STATICFILES_DIRS = (
     os.path.join(PROJECT_DIR, 'static'),
     os.path.join(PROJECT_ROOT, '../theactualsite/static'),
 )
+
+FIXTURE_DIRS = (
+    '../theactualsite/fixtures',
+)
