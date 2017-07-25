@@ -1,10 +1,56 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'portfolio.css' %}">
+
+    <title>Art</title>
 </head>
 <body>
+
+<div class="navbar navbar-inverse bg-primary">
+        <div class="container-fluid">
+            <div class="navbar-header"></div>
+
+            <ul class="nav nav-justified">
+                <li class="active"><a href="http://127.0.0.1:8000/art">Art</a></li>
+                <li><a href="http://127.0.0.1:8000/">Home</a></li>
+                <li><a href="http://127.0.0.1:8000/programming">Code</a></li>
+            </ul>
+        </div>
+    </div>
+
+    {% block title %}My Art {% endblock %}
+
+
+<div class="container">
+
+{% if art_list %}
+    {% for artpiece in art_list %}
+
+       <!-- Make a separate card for each piece -->
+
+       <div class="card" style="width: 20rem;">
+           <a href ="#">
+               <img class="card-img-top" src="{{ artpiece.myImg }}" alt="Card image cap">
+           </a>
+           <div class="card-block">
+               <h4 class="card-title">{{ artpiece.associated_piece.title }}</h4>
+               <p class="card-text">{{ artpiece.associated_piece.description }}</p>
+           </div>
+       </div>
+
+    {% endfor %}
+{% else %}
+<p>No art currently available.</p>
+{% endif %}
+
+
+</div>
 
 </body>
 </html>
