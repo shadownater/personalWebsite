@@ -47,8 +47,8 @@
     "model": "theactualsite.art",
     "pk": "3",
     "fields": {
-      "title": "I should be a new line maybe",
-      "description": "I might not be because I haven't fixed the date thing yet but you know",
+      "title": "I should NOT be a new line",
+      "description": "akshdkadhashd",
       "madeWith": "Photoshop",
       "year": "1909"
     }
@@ -59,6 +59,25 @@
     "fields": {
       "myImg": "theactualsite/static/watercolor.jpg",
       "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.art",
+    "pk": "4",
+    "fields": {
+      "title": "I should be a new line maybe",
+      "description": "I might not be because I haven't fixed the date thing yet but you know",
+      "madeWith": "Photoshop",
+      "year": "1908"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "5",
+    "fields": {
+      "myImg": "theactualsite/static/watercolor.jpg",
+      "associated_piece": "4"
     }
   }
 ]
