@@ -42,5 +42,23 @@
       "myImg": "theactualsite/static/watercolor.jpg",
       "associated_piece": "2"
     }
+  },
+  {
+    "model": "theactualsite.art",
+    "pk": "3",
+    "fields": {
+      "title": "I should be a new line maybe",
+      "description": "I might not be because I haven't fixed the date thing yet but you know",
+      "madeWith": "Photoshop",
+      "year": "1909"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "4",
+    "fields": {
+      "myImg": "theactualsite/static/watercolor.jpg",
+      "associated_piece": "3"
+    }
   }
 ]

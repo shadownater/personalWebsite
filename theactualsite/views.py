@@ -11,12 +11,10 @@ def artPage(request):
 
     #fetch art appropriately
     #probably just go from year and back, not really sure how/if I should categorize this like I have with code stuff
-    art_list = ArtImg.objects.all() #Art.objects.all().order_by('year')
-    #img_list = ArtImg.objects.all()
+    art_list = ArtImg.objects.all()
 
     context = {
         'art_list': art_list,
-        #'img_list': img_list,
     }
 
     print(context)

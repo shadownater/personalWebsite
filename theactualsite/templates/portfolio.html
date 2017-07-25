@@ -29,12 +29,15 @@
 
 <div class="container">
 
-{% if art_list %}
+    {% if art_list %}
     {% for artpiece in art_list %}
-
+        <!-- New line every 3 cards -->
+        {% if forloop.counter0|divisibleby:3 %}
+            New Line
+        {%  endif %}
        <!-- Make a separate card for each piece -->
 
-       <div class="card" style="width: 20rem;">
+       <div class="card col-md-4" style="width: 20rem;">
            <a href ="#">
                <img class="card-img-top" src="{{ artpiece.myImg }}" alt="Card image cap">
            </a>
@@ -51,6 +54,7 @@
 
 
 </div>
+
 
 </body>
 </html>
