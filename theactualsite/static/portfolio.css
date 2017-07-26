@@ -2,17 +2,36 @@
     border: solid 5px black;
 }
 
-.handmadeCard{
+.handmadeCrop{
     position:relative;
+
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
 }
 
 h4{
+    font-family: 'Dosis', sans-serif;
+    font-size: 28px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
     position:absolute;
+    display:none;
     top: 5%;
     left: 5%;
-    width: 100%;
+}
+
+.handmadeCrop h4:hover{
+    text-decoration: none;
 }
 
 .cardImg{
-    max-height: 500px;
+    max-width: 300%;
+    max-height: 300%;
+
+    margin-top: -160px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: -180px;
 }
