@@ -35,17 +35,17 @@
         {% if forloop.counter0|divisibleby:3 %}
             </div><div class="container">
         {%  endif %}
-       <!-- Make a separate card for each piece -->
-
-       <div class="card col-md-4" style="width: 20rem;">
-           <a href ="#">
-               <img class="card-img-top" src="{{ artpiece.myImg }}" alt="Card image cap">
-           </a>
-           <div class="card-block">
-               <h4 class="card-title">{{ artpiece.associated_piece.title }}</h4>
-               <p class="card-text">{{ artpiece.associated_piece.description }}</p>
-           </div>
-       </div>
+       <!-- Make a separate card for each piece. Gonna keep with Bootstrap 3 so gonna mimic 4's cards -->
+        <div class="col-md-4">
+            <div class="handmadeCard">
+                <a href ="#">
+                    <img class="cardImg" src="{{ artpiece.myImg }}" alt="Card image cap">
+                </a>
+                <!--<div class="card-img-overlay">-->
+                    <h4 class="card-title">{{ artpiece.associated_piece.title }}</h4>
+                <!--</div>-->
+            </div>
+        </div>
 
     {% endfor %}
 {% else %}
@@ -54,6 +54,8 @@
 
 
 </div>
+
+
 
 
 </body>

@@ -1,0 +1,18 @@
+.container{
+    border: solid 5px black;
+}
+
+.handmadeCard{
+    position:relative;
+}
+
+h4{
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    width: 100%;
+}
+
+.cardImg{
+    max-height: 500px;
+}
