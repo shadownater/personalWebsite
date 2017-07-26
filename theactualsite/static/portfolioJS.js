@@ -6,16 +6,15 @@
 $( ".handmadeCrop" ).hover(
   function() {
 
+      //this is on-hover
       $(this).find("h4").slideDown( "fast", function() {
-    // Animation complete.
-          console.log("I ran.");
+    // Animation complete. Callback function.
     });
 
-    console.log("You got me");
   }, function() {
-
+      //this is when hover ends
       $(this).find("h4").css("display", "none");
 
-    console.log("Now Im gone");
+
   }
 );

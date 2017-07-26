@@ -35,3 +35,18 @@ h4{
     margin-right: 0;
     margin-left: -180px;
 }
+
+.navbar{
+    font-size: 22px;
+}
+
+body{
+    background-image: url(watercolor.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
