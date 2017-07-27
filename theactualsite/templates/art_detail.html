@@ -1,0 +1,16 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hahaha</title>
+</head>
+<body>
+    <p>Wow hi</p>
+    <p>
+        {% for art in artImgObjs %}
+    {{ art }}, {{  art.id  }}, {{  art.associated_piece  }}, {{  art.associated_piece.title  }}
+        {% endfor %}
+    </p>
+</body>
+</html>
