@@ -37,10 +37,10 @@ if(boxesLeft == 2){
 
     cols.each(function(){
         $(this).removeClass('col-md-4').addClass('col-md-6');
-        $(this).find(".handmadeCrop").addClass('center-block');
+        $(this).find(".handmadeCrop").addClass('pull-right');
     });
 
-    alert("Did A!");
+    cols.last().find(".handmadeCrop").removeClass('pull-right').addClass('pull-left');
 
 }else if(boxesLeft ==1){
     //we are centering 1 box with col-md-12
