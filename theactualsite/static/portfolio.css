@@ -1,15 +1,27 @@
-.container{
-    border: solid 5px black;
+.artboxes{
+    background: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
+/*
+Opacity transformation by c.bavota
+https://bavotasan.com/about/
+https://bavotasan.com/2011/a-simple-fade-with-css3/
+*/
 .handmadeCrop{
     position:relative;
+    border: solid 1px white;
 
     width: 350px;
     height: 350px;
     overflow: hidden;
-
-    border: solid 1px black;
+    opacity:0.5;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
 
 h4{
@@ -24,20 +36,16 @@ h4{
     left: 5%;
 }
 
+.handmadeCrop:hover{
+    opacity:1;
+}
+
 .handmadeCrop h4:hover{
     text-decoration: none;
 }
 
 .cardImg{
-    /*max-width: 300%;
-    max-height: 300%;
-
-
-    margin-top: -160px;
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: -180px;
-    */
+    visibility: hidden;
 }
 
 .navbar{
@@ -63,10 +71,12 @@ body{
 #introtext{
     font-family: 'Dosis', sans-serif;
     color: black;
+    text-align: center;
 }
 
 #minitext{
     font-family: 'Didact Gothic';
     font-size: 22px;
     color: black;
+    text-align: center;
 }

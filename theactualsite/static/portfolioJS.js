@@ -21,9 +21,44 @@ $( ".handmadeCrop" ).hover(
 
 
 
+
+
+//the last row of artboxes is adjusted if there are not three boxes to fill the cols
+//1 box -> gets col-md-12
+//2 boxes -> each get col-md-6
+var boxes = $(".handmadeCrop");
+
+var boxesLeft = boxes.length % 3;
+
+if(boxesLeft == 2){
+    //we are centering two boxes with col-md-6
+
+    cols = $(".col-md-4").slice(-2);
+
+    cols.each(function(){
+        $(this).removeClass('col-md-4').addClass('col-md-6');
+        $(this).find(".handmadeCrop").addClass('center-block');
+    });
+
+    alert("Did A!");
+
+}else if(boxesLeft ==1){
+    //we are centering 1 box with col-md-12
+    //:last or last()
+    $(".col-md-4").slice(-1).removeClass('col-md-4').addClass('col-md-12');
+    $(".col-md-12 .handmadeCrop").slice(-1).addClass('center-block');
+
+}
+
+
+
+
+
 //for centering the image nicely
 //Y axis is not 100% centered- tried out that art thing where you leave more space below
 $(".cardImg").each(function(){
+
+    $(this).css('visibility','hidden');
 
     var img_width = $(this).width();
     var img_height = $(this).height();
@@ -44,7 +79,9 @@ $(".cardImg").each(function(){
 
     $(this).css('margin-left', centeringW);
     $(this).css('margin-top', centeringH);
+    $(this).css('visibility','visible');
 
 });
 
-//css({'margin-top':'300px'});
+
+

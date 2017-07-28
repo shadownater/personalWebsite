@@ -22,6 +22,7 @@ def artPage(request):
 
     context = {
         'art_list': art_list,
+        'artcount': len(art_list),
     }
 
     return render(request, 'portfolio.html', context)

@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
     <link rel="stylesheet" href="{% static 'portfolio.css' %}">
-    <title>Art</title>
+    <title>My Art</title>
 </head>
 <body>
 
@@ -27,31 +27,31 @@
     </div>
 
     <div class="container">
-        <div class="col-md-9">
+        <div class="col-md-12">
 
             <div class="jumbotron">
             <h1 class="display-3" id="introtext">My Art</h1>
-                <h2 id="minitext">These are some of the art pieces I have worked on/WIP. Some are related to school projects,
+                <h2 class="display-3" id="minitext">These are some of the art pieces I have worked on/WIP. Some are related to school projects,
                     but most are just as a hobby! Please take a look at my creations.</h2>
 
         </div>
 
-    </div>
-    <div class="col-md-3 introcontainer">
 
     </div>
+
     </div>
 
 
-<div class="container">
+<div class="container artboxes">
 
     {% if art_list %}
     {% for artpiece in art_list %}
         <!-- New line every 3 cards -->
         {% if forloop.counter0|divisibleby:3 %}
-            </div><div class="container">
+            </div><div class="container artboxes">
         {%  endif %}
        <!-- Make a separate card for each piece. Gonna keep with Bootstrap 3 so gonna mimic 4's cards -->
+
         <div class="col-md-4">
             <div class="handmadeCrop">
                 <a href ="/art/{{ artpiece.associated_piece.id }}">
