@@ -11,7 +11,7 @@ class Art(models.Model):
     title = models.CharField(max_length=100)
     description = models.CharField(max_length=1000)
     madeWith = models.CharField(max_length=100)
-    year = models.CharField(max_length=40)
+    year = models.DateField(max_length=40)
 
     def __str__(self):
         return self.title
@@ -23,7 +23,7 @@ class Programming(models.Model):
     title = models.CharField(max_length=100)
     description = models.CharField(max_length=1000)
     madeWith = models.CharField(max_length=100)
-    year = models.CharField(max_length=40)
+    year = models.DateField(max_length=40)
     github = models.CharField(max_length=2000)
     contributors = models.CharField(max_length=1000) #for now
     completed = models.BooleanField()

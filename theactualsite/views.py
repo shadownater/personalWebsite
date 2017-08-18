@@ -11,7 +11,7 @@ def artPage(request):
 
     #fetch art appropriately
     #probably just go from year and back, not really sure how/if I should categorize this like I have with code stuff
-    t_art_list = ArtImg.objects.all()
+    t_art_list = ArtImg.objects.all().order_by('-associated_piece__year')
 
     art_list = []
     for item in t_art_list:
