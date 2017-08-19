@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     <title>{% for artTitle in artImgObjs %}{{  artTitle.associated_piece.title  }}{%  endfor  %}</title>
 </head>
-<body>
+<div>
 
         <div class="navbar navbar-inverse bg-primary">
             <div class="container-fluid">
@@ -84,26 +84,30 @@
         </div> <!-- end of picCarousel -->
 
 
-        <div class="col-md-8">
-            <h1 class="card-title" id="descriptionText">Description</h1>
-            <p id="theDescription">
-                {{ artImgObjs.0.associated_piece.description }}
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h1 class="card-title" id="infoText">Information</h1>
-            <p>
-            <h4 class="card-title">Created</h4>
-            </p>
-            <p>
-                {{ artImgObjs.0.associated_piece.year }}
-            </p>
-            <p>
-            <h4 class="card-title">Made With</h4>
-            </p>
-            <p>
-                {{ artImgObjs.0.associated_piece.madeWith }}
-            </p>
+        <div class="border-between">
+
+            <div class="col-md-8">
+                <h1 class="card-title" id="descriptionText">Description</h1>
+                <p id="theDescription">
+                    {{ artImgObjs.0.associated_piece.description }}
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h1 class="card-title" id="infoText">Information</h1>
+                <p id="theInfo">
+                <h4 class="card-title" id="theInfo">Created</h4>
+                </p>
+                <p id="theData">
+                    {{ artImgObjs.0.associated_piece.year }}
+                </p>
+                <p id="theInfo">
+                <h4 class="card-title" id="theInfo">Made With</h4>
+                </p>
+                <p id="theData">
+                    {{ artImgObjs.0.associated_piece.madeWith }}
+                </p>
+            </div>
+
         </div>
 
     </div> <!-- end of container -->

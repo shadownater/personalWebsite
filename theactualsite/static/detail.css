@@ -1,7 +1,12 @@
+.navbar{
+    font-size: 22px;
+}
+
 /*
 Credit to atrepp on StackOverflow for centering images inside a carousel
 https://stackoverflow.com/users/1517028/atrepp
 https://stackoverflow.com/questions/10591422/bootstrap-carousel-image-doesnt-align-properly
+August 19, 2017
 */
 .carousel-inner > .item > img {
     margin: 0 auto;
@@ -9,17 +14,23 @@ https://stackoverflow.com/questions/10591422/bootstrap-carousel-image-doesnt-ali
 
 .col-md-4, .col-md-8{
     padding-bottom: 100px;
-    padding-top: 20px;
     color:white;
 
 }
 
 .col-md-4{
-    text-align: right;
+    padding-left: 10px;
 }
 
-#theDescription{
+#theDescription, #theInfo{
     padding-left: 1.5em;
+
+}
+
+
+
+#theData{
+    padding-left: 3em;
 }
 
 body{
@@ -40,4 +51,34 @@ body{
 
 #titletext, #descriptionText, #infoText {
     font-family: 'Dosis', sans-serif;
+}
+
+#descriptionText, #infoText{
+    line-height: 3px;
+    padding-bottom: 0.5em;
+}
+
+#picCarousel{
+    border-bottom: solid black 3em;
+}
+
+
+/*
+Credit to Ross Angus for css to make a border between columns
+https://stackoverflow.com/users/2841890/ross-angus
+https://stackoverflow.com/questions/11815081/how-can-i-add-a-line-between-two-columns-using-twitter-bootstraps-grid-system
+August 19, 2017
+*/
+.border-between > [class*='col-']:before {
+   background: #e3e3e3;
+   bottom: 0;
+   content: " ";
+   left: 0;
+   position: absolute;
+   width: 1px;
+   top: 0;
+}
+
+.border-between > [class*='col-']:first-child:before {
+   display: none;
 }
