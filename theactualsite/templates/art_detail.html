@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <meta charset="UTF-8">
-    <title>Hahaha</title>
+    <title>{% for artTitle in artImgObjs %}{{  artTitle.associated_piece.title  }}{%  endfor  %}</title>
 </head>
 <body>
 
@@ -25,13 +27,69 @@
     </div>
 
     <div class="container">
-        <p>Wow hi</p>
-    <p>
-        {% for art in artImgObjs %}
-    {{ art }}, {{  art.id  }}, {{  art.associated_piece  }}, {{  art.associated_piece.title  }}
+        {% for artTitle in artImgObjs %}
+            {% if forloop.counter0 == 0 %}
+                <h1 class="display-3" id="introtext">{{  artTitle.associated_piece.title  }}</h1>
+            {%  endif %}
         {% endfor %}
-    </p>
     </div>
+
+
+
+
+        <p>
+
+        <!-- carousel for multiple pics, got this from WC and edited it -->
+
+        <div id="picCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+              {%  for art in artImgObjs  %}
+                {%  if forloop.counter0 == 0 %}
+                    <li data-target="#picCarousel" data-slide-to="0" class="active"></li>
+                {%  else %}
+                    <li data-target="#picCarousel" data-slide-to={{ forloop.counter0 }}></li>
+                {% endif %}
+              {%  endfor %}
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              {% for art in artImgObjs %}
+                  {% if forloop.counter0 == 0 %}
+                      <div class="item active">
+                  {%  else %}
+                      <div class="item">
+                  {%  endif %}
+
+                        <img src={{  art.myImg  }}>
+                    </div>
+              {%  endfor %}
+          </div>
+
+          {% for numArt in artImgObjs %}
+              {%  if forloop.counter0  >= 1 %}
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#picCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#picCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+              {% else %}
+              <!-- no buttons for those with only 1 pic! -->
+              {% endif %}
+          {%  endfor %}
+        </div>
+
+
+
+
+
+    </p>
+    </div> <!-- end of container -->
 
 
 
