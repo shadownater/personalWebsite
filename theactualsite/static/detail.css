@@ -1,0 +1,43 @@
+/*
+Credit to atrepp on StackOverflow for centering images inside a carousel
+https://stackoverflow.com/users/1517028/atrepp
+https://stackoverflow.com/questions/10591422/bootstrap-carousel-image-doesnt-align-properly
+*/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.col-md-4, .col-md-8{
+    padding-bottom: 100px;
+    padding-top: 20px;
+    color:white;
+
+}
+
+.col-md-4{
+    text-align: right;
+}
+
+#theDescription{
+    padding-left: 1.5em;
+}
+
+body{
+    background-image: url(watercolor.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.holdsAll{
+    background: black;
+    padding-top: 30px;
+}
+
+#titletext, #descriptionText, #infoText {
+    font-family: 'Dosis', sans-serif;
+}
