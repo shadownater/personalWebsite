@@ -18,11 +18,328 @@
     "model": "theactualsite.progimg",
     "pk": "1",
     "fields": {
-      "myImg": "/images/icy-resized-v3.png",
+      "myImg": "/images/the-buzz/thebuzz1.png",
       "associated_piece": "1"
     }
-  }
+  },
 
+  {
+    "model": "theactualsite.progimg",
+    "pk": "2",
+    "fields": {
+      "myImg": "/images/the-buzz/thebuzz2.png",
+      "associated_piece": "1"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "3",
+    "fields": {
+      "myImg": "/images/the-buzz/thebuzz3.png",
+      "associated_piece": "1"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "4",
+    "fields": {
+      "myImg": "/images/the-buzz/thebuzz4.png",
+      "associated_piece": "1"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "5",
+    "fields": {
+      "myImg": "/images/the-buzz/thebuzz5.png",
+      "associated_piece": "1"
+    }
+  },
+
+  {
+    "model": "theactualsite.programming",
+    "pk": "2",
+    "fields": {
+      "title": "My Website",
+      "description": "It's the site you're on right now! I made this to get more comfortable with Django and to create a space where I can display both my art and my programming. This also helps me keep a tidy portfolio, since my Githu has numerous school projects that... Notable projects.SOMETHING",
+      "madeWith": "Django/PyCharm",
+      "year": "2017-08-01",
+      "github": "https://github.com/shadownater/personalWebsite",
+      "contributors": "Myself",
+      "completed": "No",
+      "type": "Hobby"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "6",
+    "fields": {
+      "myImg": "/images/this-site/mysite1.png",
+      "associated_piece": "2"
+    }
+  },
+
+  {
+    "model": "theactualsite.programming",
+    "pk": "3",
+    "fields": {
+      "title": "The Wolf",
+      "description": "A project my sister and I worked on for Ludum Dare 39. The theme this time was 'running out of power', which we interpreted as the player's life running out over time. We made The Wolf, a point-and-click horror game in which the player has been kidnapped by the Wolf and needs to escape before the Wolf comes and gets you!<p>This was a lot of fun to work on, but we did not finish it in the 72 hours of Ludum Dare. We spent more time on it and completed it afterwards. It was our first time using Gamemaker and we made all our own art. Overall, it was a very fun project to work on and I plan on taking part in another Ludum Dare in the future!MULTIPLE MEDIUMS",
+      "madeWith": "Gamemaker/Krita/Audicity",
+      "year": "2017-07-01",
+      "github": "https://github.com/WaffleGames/theWolf",
+      "contributors": "nlovas, myself",
+      "completed": "Yes",
+      "type": "Hobby"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "7",
+    "fields": {
+      "myImg": "/images/icy-resized-v3.png",
+      "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "8",
+    "fields": {
+      "myImg": "/images/icy-resized-v3.png",
+      "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "9",
+    "fields": {
+      "myImg": "/images/icy-resized-v3.png",
+      "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "10",
+    "fields": {
+      "myImg": "/images/icy-resized-v3.png",
+      "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "11",
+    "fields": {
+      "myImg": "/images/icy-resized-v3.png",
+      "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.programming",
+    "pk": "4",
+    "fields": {
+      "title": "NotABorealis",
+      "description": "NotABorealis is a website made for Startup Edmonton's Student Hackathon 2017. We were allowed to make any creation in the timespan of 24 hours. We decided a space weather website would be cool and set to it! I made the interactive planet information page on this site.",
+      "madeWith": "Webstorm",
+      "year": "2017-01-01",
+      "github": "https://github.com/akmcinto/Hacked2017",
+      "contributors": "NAMES, myself",
+      "completed": "Yes",
+      "type": "Hobby"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "12",
+    "fields": {
+      "myImg": "/images/notaborealis/notaborealis1.png",
+      "associated_piece": "4"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "13",
+    "fields": {
+      "myImg": "/images/notaborealis/notaborealis2.png",
+      "associated_piece": "4"
+    }
+  },
+
+  {
+    "model": "theactualsite.programming",
+    "pk": "5",
+    "fields": {
+      "title": "Bookwrm",
+      "description": "Our app development project for CMPUT 301: Intro to Software Engineering, Bookwrm is an app for trading books. Team of six. First time making an app. Loved making an app, first time becoming inspired and feeling like this field is for me.",
+      "madeWith": "Android Studio",
+      "year": "2015-12-01",
+      "github": "https://github.com/CMPUT301F15T06/GraceHoppers",
+      "contributors": "NAMES, myself",
+      "completed": "Yes",
+      "type": "School"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "14",
+    "fields": {
+      "myImg": "/images/bookwrm/bookwrm1.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "15",
+    "fields": {
+      "myImg": "/images/bookwrm/bookwrm2.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "16",
+    "fields": {
+      "myImg": "/images/bookwrm/bookwrm3.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "17",
+    "fields": {
+      "myImg": "/images/bookwrm/bookwrm4.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "18",
+    "fields": {
+      "myImg": "/images/bookwrm/bookwrm5.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "19",
+    "fields": {
+      "myImg": "/images/bookwrm/bookwrm6.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "20",
+    "fields": {
+      "myImg": "/images/bookwrm/bookwrm7.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.programming",
+    "pk": "6",
+    "fields": {
+      "title": "Share My Chart",
+      "description": "For CMPUT 401: Whatever the course is called, our team made a website where a user can upload a turtle file and make various graphs out of the data. First time working in web development and SPARQL, a RDF query language.",
+      "madeWith": "IntelliJ IDEA",
+      "year": "2016-12-01",
+      "github": "https://github.com/shadownater/ShareMyChart",
+      "contributors": "NAMES, myself",
+      "completed": "Yes",
+      "type": "School"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "21",
+    "fields": {
+      "myImg": "/images/share-my-chart/sharemychart7.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "22",
+    "fields": {
+      "myImg": "/images/share-my-chart/sharemychart1.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "23",
+    "fields": {
+      "myImg": "/images/share-my-chart/sharemychart2.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "24",
+    "fields": {
+      "myImg": "/images/share-my-chart/sharemychart3.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "25",
+    "fields": {
+      "myImg": "/images/share-my-chart/sharemychart4.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "26",
+    "fields": {
+      "myImg": "/images/share-my-chart/sharemychart5.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "27",
+    "fields": {
+      "myImg": "/images/share-my-chart/sharemychart6.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "28",
+    "fields": {
+      "myImg": "/images/share-my-chart/sharemychart8.png",
+      "associated_piece": "6"
+    }
+  }
 
 
 ]
