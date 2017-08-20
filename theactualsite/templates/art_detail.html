@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <meta charset="UTF-8">
-    <title>{% for artTitle in artImgObjs %}{{  artTitle.associated_piece.title  }}{%  endfor  %}</title>
+    <title>{{  artImgObjs.0.associated_piece.title  }}</title>
 </head>
 <div>
 
@@ -27,9 +27,6 @@
             </div>
         </div>
 
-    <div class="container">
-        <h1 class="display-3" id="titletext">{{  artImgObjs.0.associated_piece.title  }}</h1>
-    </div>
 
 
 
@@ -38,9 +35,13 @@
 
         <div class="container holdsAll">
 
+        <h1 class="display-3" id="titletext">{{  artImgObjs.0.associated_piece.title  }}</h1>
+
+
+
         <!-- carousel for multiple pics, got this from WC and edited it -->
 
-        <div id="picCarousel" class="carousel slide" data-ride="carousel">
+        <div id="picCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
           <!-- Indicators -->
           <ol class="carousel-indicators">
               {%  for art in artImgObjs  %}
@@ -61,7 +62,7 @@
                       <div class="item">
                   {%  endif %}
 
-                        <img src={{  art.myImg  }}>
+                        <img class="imageResizing" src={{  art.myImg  }}>
                     </div>
               {%  endfor %}
           </div>
@@ -115,4 +116,6 @@
 
 
 </body>
+<script src="{% static 'detailJS.js' %}"></script>
+
 </html>

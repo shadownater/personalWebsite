@@ -46,11 +46,19 @@ body{
 
 .holdsAll{
     background: black;
-    padding-top: 30px;
+    padding-top: 5px;
 }
 
 #titletext, #descriptionText, #infoText {
     font-family: 'Dosis', sans-serif;
+}
+
+#titletext{
+    text-align: center;
+    color: white;
+    font-size: 56px;
+    padding-bottom: 20px;
+    line-height:35px;
 }
 
 #descriptionText, #infoText{
@@ -60,6 +68,11 @@ body{
 
 #picCarousel{
     border-bottom: solid black 3em;
+
+}
+
+.carousel-indicators li {
+    visibility: hidden;
 }
 
 
@@ -81,4 +94,12 @@ August 19, 2017
 
 .border-between > [class*='col-']:first-child:before {
    display: none;
+}
+
+/*
+Make images same height so that the carousel does not bounce on change
+ */
+
+#picCarousel{
+    min-height: 700px;
 }
