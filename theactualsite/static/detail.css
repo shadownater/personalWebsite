@@ -13,7 +13,7 @@ August 19, 2017
 }
 
 .col-md-4, .col-md-8{
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     color:white;
 
 }
@@ -22,15 +22,24 @@ August 19, 2017
     padding-left: 10px;
 }
 
-#theDescription, #theInfo{
+#theDescription{
     padding-left: 1.5em;
+    padding-right: 1em;
+    font-family: 'Didact Gothic';
+    font-size: 18px;
 
 }
 
-
+#theInfo{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+}
 
 #theData{
-    padding-left: 3em;
+    text-align: center;
+    font-family: 'Didact Gothic';
+    font-size: 18px;
 }
 
 body{
@@ -63,7 +72,12 @@ body{
 
 #descriptionText, #infoText{
     line-height: 3px;
-    padding-bottom: 0.5em;
+    padding-bottom: 5px;
+
+}
+
+#infoText{
+    text-align: center;
 }
 
 #picCarousel{
@@ -83,23 +97,27 @@ https://stackoverflow.com/questions/11815081/how-can-i-add-a-line-between-two-co
 August 19, 2017
 */
 .border-between > [class*='col-']:before {
-   background: #e3e3e3;
-   bottom: 0;
-   content: " ";
-   left: 0;
-   position: absolute;
-   width: 1px;
-   top: 0;
+    background: #e3e3e3;
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    width: 1px;
+    top: 0;
+    width: 3px;
 }
 
 .border-between > [class*='col-']:first-child:before {
    display: none;
 }
 
-/*
-Make images same height so that the carousel does not bounce on change
- */
+hr{
+    color: white;
+    border: solid 1.5px white;
+    width: 100%;
 
-#picCarousel{
-    min-height: 700px;
+}
+
+.mrpadding{
+    padding-bottom: 30px;
 }

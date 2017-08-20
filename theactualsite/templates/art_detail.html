@@ -89,17 +89,19 @@
 
             <div class="col-md-8">
                 <h1 class="card-title" id="descriptionText">Description</h1>
+                <hr>
                 <p id="theDescription">
                     {{ artImgObjs.0.associated_piece.description }}
                 </p>
             </div>
             <div class="col-md-4">
                 <h1 class="card-title" id="infoText">Information</h1>
+                <hr>
                 <p id="theInfo">
                 <h4 class="card-title" id="theInfo">Created</h4>
                 </p>
                 <p id="theData">
-                    {{ artImgObjs.0.associated_piece.year }}
+                    {{ artImgObjs.0.associated_piece.year|date:"N o" }}
                 </p>
                 <p id="theInfo">
                 <h4 class="card-title" id="theInfo">Made With</h4>
@@ -110,6 +112,8 @@
             </div>
 
         </div>
+
+    <div class="col-md-12 mrpadding"></div>
 
     </div> <!-- end of container -->
 
