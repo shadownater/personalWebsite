@@ -1,0 +1,82 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+    <link rel="stylesheet" href="{% static 'portfolio.css' %}">
+    <title>My Coding Projects</title>
+</head>
+<body>
+
+<div class="navbar navbar-inverse bg-primary">
+        <div class="container-fluid">
+            <div class="navbar-header"></div>
+
+            <ul class="nav nav-justified">
+                <li><a href="http://127.0.0.1:8000/art">Art</a></li>
+                <li><a href="http://127.0.0.1:8000/">Home</a></li>
+                <li class="active"><a href="http://127.0.0.1:8000/programming">Code</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-md-12">
+
+            <div class="jumbotron">
+            <h1 class="display-3" id="introtext">My Coding Projects</h1>
+                <h2 class="display-3" id="minitext">Here are some of the coding projects I have completed over the years.
+                    I have separated them into school and non-school related categories. Please take a look!</h2>
+
+        </div>
+
+
+    </div>
+
+    </div>
+
+
+<div class="container artboxes">
+
+    {% if prog_list %}
+    {% for progpiece in prog_list %}
+        <!-- New line every 3 cards -->
+        {% if forloop.counter0|divisibleby:3 %}
+            </div><div class="container artboxes">
+        {%  endif %}
+       <!-- Make a separate card for each piece. Gonna keep with Bootstrap 3 so gonna mimic 4's cards -->
+
+        <div class="col-md-4">
+            <div class="handmadeCrop">
+                <a href ="/programming/{{ progpiece.associated_piece.id }}">
+                    <img class="cardImg" src="{{ progpiece.myImg }}" alt="Card image cap">
+
+                <!--<div class="card-img-overlay">-->
+                    <h4 class="card-title">{{ progpiece.associated_piece.title }}</h4>
+                <!--</div>-->
+                </a>
+            </div>
+        </div>
+
+    {% endfor %}
+{% else %}
+<p>No coding projects currently available.</p>
+{% endif %}
+
+
+</div>
+
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="{% static 'portfolioJS.js' %}"></script>
+
+</html>

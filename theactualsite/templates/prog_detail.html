@@ -1,0 +1,140 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+    <link rel="stylesheet" href="{% static 'detail.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <meta charset="UTF-8">
+    <title>{{  artImgObjs.0.associated_piece.title  }}</title>
+</head>
+<div>
+
+        <div class="navbar navbar-inverse bg-primary">
+            <div class="container-fluid">
+                <div class="navbar-header"></div>
+
+                <ul class="nav nav-justified">
+                    <li><a href="http://127.0.0.1:8000/art">Art</a></li>
+                    <li class="active"><a href="http://127.0.0.1:8000/">Home</a></li>
+                    <li><a href="http://127.0.0.1:8000/programming">Code</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+
+        <p>
+
+        <div class="container holdsAll">
+
+        <h1 class="display-3" id="titletext">{{  progImgObjs.0.associated_piece.title  }}</h1>
+
+
+
+        <!-- carousel for multiple pics, got this from WC and edited it -->
+
+        <div id="picCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+              {%  for code in progImgObjs  %}
+                {%  if forloop.counter0 == 0 %}
+                    <li data-target="#picCarousel" data-slide-to="0" class="active"></li>
+                {%  else %}
+                    <li data-target="#picCarousel" data-slide-to={{ forloop.counter0 }}></li>
+                {% endif %}
+              {%  endfor %}
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              {% for code in progImgObjs %}
+                  {% if forloop.counter0 == 0 %}
+                      <div class="item active">
+                  {%  else %}
+                      <div class="item">
+                  {%  endif %}
+
+                        <img class="imageResizing" src={{  code.myImg  }}>
+                    </div>
+              {%  endfor %}
+          </div>
+
+          {% for numCode in progImgObjs %}
+              {%  if forloop.counter0  >= 1 %}
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#picCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#picCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+              {% else %}
+              <!-- no buttons for those with only 1 pic! -->
+              {% endif %}
+          {%  endfor %}
+        </div> <!-- end of picCarousel -->
+
+
+        <div class="border-between">
+
+            <div class="col-md-8">
+                <h1 class="card-title" id="descriptionText">Description</h1>
+                <hr>
+                <p id="theDescription">
+                    {{ progImgObjs.0.associated_piece.description }}
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h1 class="card-title" id="infoText">Information</h1>
+                <hr>
+                <p id="theInfo">
+                <h4 class="card-title" id="theInfo">Created</h4>
+                </p>
+                <p id="theData">
+                    {{ progImgObjs.0.associated_piece.year|date:"N o" }}
+                </p>
+                <p id="theInfo">
+                <h4 class="card-title" id="theInfo">Made With</h4>
+                </p>
+                <p id="theData">
+                    {{ progImgObjs.0.associated_piece.madeWith }}
+                </p>
+                <h4 class="card-title" id="theInfo">Github</h4>
+                </p>
+                <p id="theData">
+                    {{ progImgObjs.0.associated_piece.github }}
+                </p>
+                <h4 class="card-title" id="theInfo">Contributors</h4>
+                </p>
+                <p id="theData">
+                    {{ progImgObjs.0.associated_piece.contributors }}
+                </p>
+                <h4 class="card-title" id="theInfo">Completed</h4>
+                </p>
+                <p id="theData">
+                    {{ progImgObjs.0.associated_piece.completed }}
+                </p>
+            </div>
+
+        </div>
+
+    <div class="col-md-12 mrpadding"></div>
+
+    </div> <!-- end of container -->
+
+
+
+</body>
+<script src="{% static 'detailJS.js' %}"></script>
+
+</html>

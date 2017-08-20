@@ -1,0 +1,28 @@
+[
+  {
+    "model": "theactualsite.programming",
+    "pk": "1",
+    "fields": {
+      "title": "The Buzz",
+      "description": "This will be about The Buzz!",
+      "madeWith": "Django",
+      "year": "2017-04-01",
+      "github": "https://github.com/CMPUT404WIN17BUMBLEBEE/CMPUT404-project-socialdistribution",
+      "contributors": "List their accounts here",
+      "completed": "Yes",
+      "type": "School"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "1",
+    "fields": {
+      "myImg": "/images/icy-resized-v3.png",
+      "associated_piece": "1"
+    }
+  }
+
+
+
+]

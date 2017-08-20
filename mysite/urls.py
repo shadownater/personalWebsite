@@ -12,8 +12,9 @@ urlpatterns = [
 
     url(r'^$', views.index, name='index'),
     url(r'^art/$', views.artPage, name='artpage'),
-    url(r'^programming/', views.programmingPage, name='programmingpage'),
+    url(r'^programming/$', views.programmingPage, name='programmingpage'),
     url(r'^art/(?P<artpiece_id>[0-9]+)$', views.piece_detail, name='piece_detail'),
+    url(r'^programming/(?P<progpiece_id>[0-9]+)$', views.p_piece_detail, name='p_piece_detail'),
     url(r'^admin/', include(admin.site.urls)),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

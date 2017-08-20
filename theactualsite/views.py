@@ -10,7 +10,6 @@ def index(request):
 def artPage(request):
 
     #fetch art appropriately
-    #probably just go from year and back, not really sure how/if I should categorize this like I have with code stuff
     t_art_list = ArtImg.objects.all().order_by('-associated_piece__year')
 
     art_list = []
@@ -29,14 +28,29 @@ def artPage(request):
 
 #Programming page
 def programmingPage(request):
-    return HttpResponse("This is where the programming stuff will be!!!")
 
+    #fetch coding projects
+    t_code_list = ProgImg.objects.all().order_by('-associated_piece__year')
+
+    prog_list = []
+
+    for item in t_code_list:
+        if not(itemExists(item, prog_list) ):
+            prog_list.append(item)
+
+    context = {
+        'prog_list': prog_list,
+        'progcount': len(prog_list)
+    }
+
+
+    return render(request, 'code_portfolio.html', context)
+
+
+#return the art detail page
 def piece_detail(request, artpiece_id):
 
     artImgObjs = getArtImg(artpiece_id)
-    print artImgObjs
-    print artImgObjs[0].id
-    print artImgObjs[0].associated_piece.title
 
     context = {
         'artImgObjs': artImgObjs,
@@ -44,6 +58,18 @@ def piece_detail(request, artpiece_id):
 
     return render(request, 'art_detail.html', context)
 
+
+#return the programming detail page
+def p_piece_detail(request, progpiece_id):
+
+
+    progImgObjs = getProgImg(progpiece_id)
+
+    context = {
+        'progImgObjs': progImgObjs,
+    }
+
+    return render(request, 'prog_detail.html', context)
 
 #gets the art related to the pk passed
 #returns in the form of an artImg so i have the art too
@@ -53,6 +79,11 @@ def getArtImg(art_id):
 
     return thePiece
 
+#same as the above but for programming objects instead
+def getProgImg(prog_id):
+    thePiece = ProgImg.objects.filter(associated_piece=prog_id)
+
+    return thePiece
 
 #makes sure the art_list only holds 1 copy of the art
 #it has to fetch via the artImgs, which can list the art more than once (in the case of a piece having multiple pics)

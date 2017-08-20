@@ -26,7 +26,16 @@ class Programming(models.Model):
     year = models.DateField(max_length=40)
     github = models.CharField(max_length=2000)
     contributors = models.CharField(max_length=1000) #for now
-    completed = models.BooleanField()
+
+    COMPLETED_CHOICES = (
+        ('SCHOOL', 'School'),
+        ('HOBBY', 'Hobby'),
+    )
+
+    completed = models.CharField(
+        max_length = 3,
+        choices = COMPLETED_CHOICES,
+    )
 
     TYPE_CHOICES = (
         ('SCHOOL', 'School'),
@@ -36,7 +45,6 @@ class Programming(models.Model):
     type = models.CharField(
         max_length = 20,
         choices = TYPE_CHOICES,
-        #default = 'SCHOOL',
     )
 
 
