@@ -14,6 +14,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR2 = os.path.dirname(os.path.dirname(__file__))
 PROJECT_DIR  = os.path.dirname(__file__)
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -111,3 +112,7 @@ STATICFILES_DIRS = (
 FIXTURE_DIRS = (
     '../theactualsite/fixtures',
 )
+
+MEDIA_ROOT = os.path.join(BASE_DIR2, 'mysite/images') #'../theactualsite/../theactualsite/images')
+
+MEDIA_URL = '/images/'

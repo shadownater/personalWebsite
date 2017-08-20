@@ -56,32 +56,31 @@ if(boxesLeft == 2){
 
 //for centering the image nicely
 //Y axis is not 100% centered- tried out that art thing where you leave more space below
-$(".cardImg").each(function(){
+$("img").ready(function(){
+    $(".cardImg").each(function(){
 
-    $(this).css('visibility','hidden');
+        //$(this).css('visibility','hidden');
 
-    var img_width = $(this).width();
-    var img_height = $(this).height();
-    var clippingBoxW = $(".handmadeCrop").width();
-    var clippingBoxH = $(".handmadeCrop").height();
+        var img_width = $(this).width();
+        var img_height = $(this).height();
+        var clippingBoxW = $(".handmadeCrop").width();
+        var clippingBoxH = $(".handmadeCrop").height();
 
-    //centers of both the image itself and the clipping box
-    var centeringW = img_width/2.0;
-    var centeringH = img_height/2.0;
-    var clippingCenterW = clippingBoxW/2.0;
-    var clippingCenterH = clippingBoxH/2.0;
+        //centers of both the image itself and the clipping box
+        var centeringW = img_width/2.0;
+        var centeringH = img_height/2.0;
+        var clippingCenterW = clippingBoxW/2.0;
+        var clippingCenterH = clippingBoxH/2.0;
 
-    centeringW -= clippingCenterW;
-    centeringH = centeringH - clippingCenterH + (clippingCenterH/5);
+        centeringW -= clippingCenterW;
+        centeringH = centeringH - clippingCenterH + (clippingCenterH/5);
 
-    centeringW *=(-1);
-    centeringH *=(-1);
+        centeringW *=(-1);
+        centeringH *=(-1);
 
-    $(this).css('margin-left', centeringW);
-    $(this).css('margin-top', centeringH);
-    $(this).css('visibility','visible');
+        $(this).css('margin-left', centeringW);
+        $(this).css('margin-top', centeringH);
+        $(this).css('visibility', 'visible');
 
+    })
 });
-
-
-
