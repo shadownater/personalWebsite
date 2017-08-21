@@ -102,3 +102,30 @@ hr{
 .hrLine{
     padding-top: 30px;
 }
+
+
+/*
+below are for the navbar
+*/
+
+.active{
+    background-color: indigo;
+}
+li{
+    font-family: 'Dosis', sans-serif;
+}
+
+.nav-justified > li > a{
+    color:white;
+}
+
+.nav-justified > li.artNav > a:hover {
+    background: url('Halsemon-icon.jpg') no-repeat -20px 0;
+    color:black;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    transition: 0.2s linear background;
+}

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
     <link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
     <link rel="stylesheet" href="{% static 'portfolio.css' %}">
@@ -19,9 +18,9 @@
             <div class="navbar-header"></div>
 
             <ul class="nav nav-justified">
-                <li class="active"><a href="http://127.0.0.1:8000/art">Art</a></li>
-                <li><a href="http://127.0.0.1:8000/">Home</a></li>
-                <li><a href="http://127.0.0.1:8000/programming">Code</a></li>
+                <li class="active artNav"><a href="http://127.0.0.1:8000/art">Art</a></li>
+                <li id="homeNav"><a href="http://127.0.0.1:8000/">Home</a></li>
+                <li id="codeNav"><a href="http://127.0.0.1:8000/programming">Code</a></li>
             </ul>
         </div>
     </div>
@@ -77,6 +76,7 @@
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="{% static 'portfolioJS.js' %}"></script>
 
 </html>
