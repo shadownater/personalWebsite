@@ -56,7 +56,7 @@ if(boxesLeft == 2){
 
 //for centering the image nicely
 //Y axis is not 100% centered- tried out that art thing where you leave more space below
-$("img").ready(function(){
+$(window).on("load", function(){
     $(".cardImg").each(function(){
 
         //$(this).css('visibility','hidden');

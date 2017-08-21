@@ -80,3 +80,7 @@ body{
     color: black;
     text-align: center;
 }
+
+img{
+    visibility: hidden;
+}

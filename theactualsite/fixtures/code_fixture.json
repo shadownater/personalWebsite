@@ -4,11 +4,11 @@
     "pk": "1",
     "fields": {
       "title": "The Buzz",
-      "description": "This will be about The Buzz!",
+      "description": "The Buzz is a distributed-system social-networking site made for CMPUT 404: Web-Based Information Systems. As a team of six, we made a site where users could sign up, make posts, comment, and add their friends. I personally worked on much of the posting aspect of the site, allowing users to upload images and utilize markdown while protecting against code injection. This was the first time I used Django and I learned a lot of web development and teamwork in the process.",
       "madeWith": "Django",
       "year": "2017-04-01",
-      "github": "https://github.com/CMPUT404WIN17BUMBLEBEE/CMPUT404-project-socialdistribution",
-      "contributors": "List their accounts here",
+      "github": "http://github.com/CMPUT404WIN17BUMBLEBEE/CMPUT404-project-socialdistribution",
+      "contributors": "Saemorris, Shuming2, Nlovas, Map6, Michaelyeg, Myself",
       "completed": "Yes",
       "type": "School"
     }
@@ -67,7 +67,7 @@
       "description": "It's the site you're on right now! I made this to get more comfortable with Django and to create a space where I can display both my art and my programming. This also helps me keep a tidy portfolio, since my Githu has numerous school projects that... Notable projects.SOMETHING",
       "madeWith": "Django/PyCharm",
       "year": "2017-08-01",
-      "github": "https://github.com/shadownater/personalWebsite",
+      "github": "http://github.com/shadownater/personalWebsite",
       "contributors": "Myself",
       "completed": "No",
       "type": "Hobby"
@@ -91,7 +91,7 @@
       "description": "A project my sister and I worked on for Ludum Dare 39. The theme this time was 'running out of power', which we interpreted as the player's life running out over time. We made The Wolf, a point-and-click horror game in which the player has been kidnapped by the Wolf and needs to escape before the Wolf comes and gets you!<p>This was a lot of fun to work on, but we did not finish it in the 72 hours of Ludum Dare. We spent more time on it and completed it afterwards. It was our first time using Gamemaker and we made all our own art. Overall, it was a very fun project to work on and I plan on taking part in another Ludum Dare in the future!MULTIPLE MEDIUMS",
       "madeWith": "Gamemaker/Krita/Audicity",
       "year": "2017-07-01",
-      "github": "https://github.com/WaffleGames/theWolf",
+      "github": "http://github.com/WaffleGames/theWolf",
       "contributors": "nlovas, myself",
       "completed": "Yes",
       "type": "Hobby"
@@ -151,7 +151,7 @@
       "description": "NotABorealis is a website made for Startup Edmonton's Student Hackathon 2017. We were allowed to make any creation in the timespan of 24 hours. We decided a space weather website would be cool and set to it! I made the interactive planet information page on this site.",
       "madeWith": "Webstorm",
       "year": "2017-01-01",
-      "github": "https://github.com/akmcinto/Hacked2017",
+      "github": "http://github.com/akmcinto/Hacked2017",
       "contributors": "NAMES, myself",
       "completed": "Yes",
       "type": "Hobby"
@@ -184,7 +184,7 @@
       "description": "Our app development project for CMPUT 301: Intro to Software Engineering, Bookwrm is an app for trading books. Team of six. First time making an app. Loved making an app, first time becoming inspired and feeling like this field is for me.",
       "madeWith": "Android Studio",
       "year": "2015-12-01",
-      "github": "https://github.com/CMPUT301F15T06/GraceHoppers",
+      "github": "http://github.com/CMPUT301F15T06/GraceHoppers",
       "contributors": "NAMES, myself",
       "completed": "Yes",
       "type": "School"
@@ -262,7 +262,7 @@
       "description": "For CMPUT 401: Whatever the course is called, our team made a website where a user can upload a turtle file and make various graphs out of the data. First time working in web development and SPARQL, a RDF query language.",
       "madeWith": "IntelliJ IDEA",
       "year": "2016-12-01",
-      "github": "https://github.com/shadownater/ShareMyChart",
+      "github": "http://github.com/shadownater/ShareMyChart",
       "contributors": "NAMES, myself",
       "completed": "Yes",
       "type": "School"
