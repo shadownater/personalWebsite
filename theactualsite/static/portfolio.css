@@ -84,3 +84,21 @@ body{
 img{
     visibility: hidden;
 }
+
+#sortingText{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    padding-left: 20px;
+    line-height: 40%;
+}
+
+hr{
+    color: white;
+    border: solid 1.5px white;
+    width: 100%;
+
+}
+
+.hrLine{
+    padding-top: 30px;
+}

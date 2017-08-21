@@ -30,17 +30,25 @@ def artPage(request):
 def programmingPage(request):
 
     #fetch coding projects
-    t_code_list = ProgImg.objects.all().order_by('-associated_piece__year')
+    t_code_list_hobby = ProgImg.objects.filter(associated_piece__type='Hobby').order_by('-associated_piece__year')
+    t_code_list_school = ProgImg.objects.filter(associated_piece__type='School').order_by('-associated_piece__year')
 
-    prog_list = []
+    prog_list_h = []
+    prog_list_s = []
 
-    for item in t_code_list:
-        if not(itemExists(item, prog_list) ):
-            prog_list.append(item)
+    for item in t_code_list_hobby:
+        if not(itemExists(item, prog_list_h) ):
+            prog_list_h.append(item)
+
+    for item in t_code_list_school:
+        if not(itemExists(item, prog_list_s) ):
+            prog_list_s.append(item)
 
     context = {
-        'prog_list': prog_list,
-        'progcount': len(prog_list)
+        'prog_list_h': prog_list_h,
+        'prog_list_s': prog_list_s,
+        'progcount_h': len(prog_list_h),
+        'progcount_s': len(prog_list_s),
     }
 
 
