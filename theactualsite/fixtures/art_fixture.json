@@ -4,7 +4,7 @@
     "pk": "1",
     "fields": {
       "title": "Icy",
-      "description": "This is a WIP piece that I hope to return to. It is heavily inspired the song 'Source of Ice' by Hyi. This is a character of mine, Dakota. Drawing ice like this was an interesting challenge to understand how to create the illusion of 'clearness'.",
+      "description": "This is a WIP piece that I hope to return to. It is heavily inspired the song 'Source of Ice' by Hyi. This is a character of mine, Dakota. Drawing ice like this was an interesting challenge to understand how to create the illusion of something partially clear but also faintly shiny.",
       "madeWith": "Photoshop",
       "year": "2014-04-01"
     }
@@ -22,7 +22,7 @@
     "pk": "2",
     "fields": {
       "title": "Christmas",
-      "description": "A digital painted I made for Christmas in 2016. It was useful for trying out a new painting program, Krita, as well as experimenting with clothing folds/colours. I really like how it turned out! I'm using Krita as a viable substitute for Photoshop, though I would like to try using Paint Tool SAI in the future.",
+      "description": "A digital painted I made for Christmas in 2016. It was useful for trying out a new painting program, Krita, as well as experimenting with clothing folds/colours. I really like how it turned out! Krita is a viable substitute for Photoshop, though I would like to try using Paint Tool SAI sometime in the future.",
       "madeWith": "Krita",
       "year": "2016-12-28"
     }
@@ -200,7 +200,7 @@
     "pk": "11",
     "fields": {
       "title": "Winter",
-      "description": "A picture of my character, Dakota, in winter.",
+      "description": "A picture of my character, Dakota, in winter. This was a picture I made without the use of pens. Making the scarf took a lot of time and planning to achieve the right flow.",
       "madeWith": "Pencil Crayons",
       "year": "2013-12-28"
     }
@@ -219,7 +219,7 @@
     "pk": "12",
     "fields": {
       "title": "Seth and Dakota",
-      "description": "A WIP I have of my two characters, Seth and Dakota. I plan on coming back to this piece, but somewhere along the line of updating my OS, my Photoshop perished. I've now switched to Krita for the time being and it will have to be completed in that program now.",
+      "description": "A WIP I have of my two characters, Seth and Dakota. I plan on coming back to this piece, but somewhere along the line of updating my OS, my Photoshop perished. I've now switched to Krita for the time being and it will have to be completed in that program now. It was inspired by Tidal Waves by Itro.",
       "madeWith": "Krita",
       "year": "2016-05-01"
     }
@@ -238,7 +238,7 @@
     "pk": "13",
     "fields": {
       "title": "Ying Logos",
-      "description": "The logo I made for our INT D 450 game, 影 (Ying). I am currently learning Chinese, so this was good practice for me!",
+      "description": "The possible logo designs I made for our INT D 450 game, 影 (Ying). I am currently learning Chinese, so this was good practice for me! I tried to capture the essence of our main character, Shion, and their snake-like mutation.",
       "madeWith": "Illustrator",
       "year": "2017-03-01"
     }

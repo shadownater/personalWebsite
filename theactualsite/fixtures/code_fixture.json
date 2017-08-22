@@ -4,7 +4,7 @@
     "pk": "1",
     "fields": {
       "title": "The Buzz",
-      "description": "The Buzz is a distributed-system, social-networking site made for CMPUT 404: Web-Based Information Systems. As a team of six, we made a site where users could sign up, make posts, comment, and add their friends. I personally worked on most of the posting aspect of the site, allowing users to upload images and utilize markdown while protecting against code injection. This was the first time I used Django and I learned a lot of web development, HTTP, and teamwork in the process.",
+      "description": "The Buzz is a distributed-system, social-networking site made for CMPUT 404: Web-Based Information Systems. As a team of six, we made a site where users could sign up, make posts, comment, and add their friends. I personally worked on most of the user posting aspects of the site, allowing users to upload images and utilize markdown while protecting against code injection. This was the first time I used Django and I learned a lot of web development, HTTP, and teamwork in the process.",
       "madeWith": "Django",
       "year": "2017-04-01",
       "github": "http://github.com/CMPUT404WIN17BUMBLEBEE/CMPUT404-project-socialdistribution",
@@ -148,7 +148,7 @@
     "pk": "4",
     "fields": {
       "title": "NotABorealis",
-      "description": "NotABorealis is a website made for Startup Edmonton's Student Hackathon 2017. We were allowed to make any creation in the timespan of 24 hours. We decided a space weather website would be cool and set to it! I made the interactive planet information page on this site. The site can be viewed <a href=\"http://d1swlf98bwhf6n.cloudfront.net/#!/\">here</a>.",
+      "description": "NotABorealis is a website made for Startup Edmonton's Student Hackathon 2017. We were allowed to make any creation in the timespan of 24 hours. We decided a space weather website would be cool and set to it! I made the interactive planet information page on this site. This was the first time I used CSS and html for someting more complex, such as animations and transitions. The site can be viewed <a href=\"http://d1swlf98bwhf6n.cloudfront.net/#!/\">here</a>.",
       "madeWith": "Webstorm",
       "year": "2017-01-01",
       "github": "http://github.com/akmcinto/Hacked2017",
