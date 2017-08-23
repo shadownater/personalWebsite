@@ -108,7 +108,7 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    #os.path.join(PROJECT_DIR, 'static'),
+    os.path.join(PROJECT_DIR, 'static'),
     os.path.join(PROJECT_ROOT, '../theactualsite/static'),
 )
 
@@ -119,6 +119,10 @@ FIXTURE_DIRS = (
 MEDIA_ROOT = os.path.join(BASE_DIR2, 'mysite/images') #'../theactualsite/../theactualsite/images')
 
 MEDIA_URL = '/images/'
+
+
+#added this from pdf about heroku
+DATABASE_URL="sqlite:////'pwd'/sqlite3.db"
 
 #for herooku db stuff
 #see: https://devcenter.heroku.com/articles/django-app-configuration
