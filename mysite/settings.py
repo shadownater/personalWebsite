@@ -102,6 +102,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
+#added this root, it's new for Heroku use
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
@@ -116,3 +119,12 @@ FIXTURE_DIRS = (
 MEDIA_ROOT = os.path.join(BASE_DIR2, 'mysite/images') #'../theactualsite/../theactualsite/images')
 
 MEDIA_URL = '/images/'
+
+#for herooku db stuff
+#see: https://devcenter.heroku.com/articles/django-app-configuration
+import dj_database_url
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
+
+#dont think i need this but who knows what the future holds
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
