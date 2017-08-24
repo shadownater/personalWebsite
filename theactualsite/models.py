@@ -9,7 +9,7 @@ class Art(models.Model):
 
     id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=100)
-    description = models.CharField(max_length=1000)
+    description = models.CharField(max_length=2000)
     madeWith = models.CharField(max_length=100)
     year = models.DateField(max_length=40)
 
@@ -21,7 +21,7 @@ class Programming(models.Model):
 
     id = models.AutoField(primary_key=True)
     title = models.CharField(max_length=100)
-    description = models.CharField(max_length=1000)
+    description = models.CharField(max_length=2000)
     madeWith = models.CharField(max_length=100)
     year = models.DateField(max_length=40)
     github = models.CharField(max_length=2000)
