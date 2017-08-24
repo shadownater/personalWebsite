@@ -64,8 +64,8 @@
     "pk": "2",
     "fields": {
       "title": "My Website",
-      "description": "It's the site you're on right now! I made this to get more comfortable with Django and to create a space where I can display both my art and my programming. This also helps me keep a tidy portfolio, highlighting my notable projects from my Github. I tried out fixtures for the first time on this site as a means of quickly loading project/art information all in one spot, then utilizing Django's templates to make it look nice for me. This is also the first time I have used Bootstrap and I've learned a lot about using grids, containers, carousels, and more. It was a lot of fun to make!",
-      "madeWith": "Django/PyCharm",
+      "description": "It's the site you're on right now! I made this to get more comfortable with Django and to create a space where I can display both my art and my programming. This also helps me keep a tidy portfolio, highlighting my notable projects from my Github. I tried out fixtures for the first time on this site as a means of quickly loading project/art information all in one spot, then utilizing Django's templates to make it look nice for me. This is also the first time I have used Bootstrap and I've learned a lot about using grids, containers, carousels, and more. I used AWS S3 to host my portfolio images. It was a lot of fun to make!",
+      "madeWith": "Django/PyCharm, AWS S3",
       "year": "2017-08-01",
       "github": "http://github.com/shadownater/personalWebsite",
       "contributors": "Myself",
@@ -88,7 +88,7 @@
     "pk": "3",
     "fields": {
       "title": "The Wolf",
-      "description": "A project my sister and I worked on for Ludum Dare 39. The theme this time was 'running out of power', which we interpreted as the player's life running out over time. We made The Wolf, a point-and-click horror game in which the player has been kidnapped by the Wolf and needs to escape before the Wolf comes and gets you! This was a lot of fun to work on, but we did not finish in the 72 hours of Ludum Dare. We spent more time on it and completed it afterwards. It was our first time using Gamemaker and we learned a lot making this game. We also learned how to edit sounds in Audicity and, because we wanted a surreal art style, we created artwork in ways we had not considered before (ie, using pizza as a texture for a plant). Overall, it was a very fun project to work on and I plan on taking part in another Ludum Dare in the future!",
+      "description": "A project my sister and I worked on for Ludum Dare 39. The theme this time was 'running out of power', which we interpreted as the player's life running out over time. We made The Wolf, a point-and-click horror game in which the player has been kidnapped by the Wolf and needs to escape before the Wolf comes and gets you! This was a lot of fun to work on, but we did not finish in the 72 hours of Ludum Dare. We spent more time on it and completed it afterwards. It was our first time using Gamemaker and we learned a lot making this game. We also learned how to edit sounds in Audicity and, because we wanted a surreal art style, we created artwork in ways we had not considered before (ie, using pizza as a texture for a plant). Overall, it was a very fun project to work on and I plan on taking part in another Ludum Dare in the future!  The game can be downloaded <a href=\"https://drive.google.com/file/d/0ByY1pmBZfztJSmt0aWIwV051R3M/view\">here</a> and a playthrough/walkthrough can be watched <a href=\"https://www.youtube.com/watch?v=D0mZvdfKTBo\">here</a>.",
       "madeWith": "Gamemaker/Krita/Audicity",
       "year": "2017-07-01",
       "github": "http://github.com/WaffleGames/theWolf",
