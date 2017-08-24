@@ -282,7 +282,7 @@
     "model": "theactualsite.progimg",
     "pk": "22",
     "fields": {
-      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart1.png",
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart8.png",
       "associated_piece": "6"
     }
   },
@@ -336,7 +336,7 @@
     "model": "theactualsite.progimg",
     "pk": "28",
     "fields": {
-      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart8.png",
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart1.png",
       "associated_piece": "6"
     }
   }
