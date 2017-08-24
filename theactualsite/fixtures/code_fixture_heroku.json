@@ -1,0 +1,345 @@
+[
+  {
+    "model": "theactualsite.programming",
+    "pk": "1",
+    "fields": {
+      "title": "The Buzz",
+      "description": "The Buzz is a distributed-system, social-networking site made for CMPUT 404: Web-Based Information Systems. As a team of six, we made a site where users could sign up, make posts, comment, and add their friends. I personally worked on most of the user posting aspects of the site, allowing users to upload images and utilize markdown while protecting against code injection. This was the first time I used Django and I learned a lot of web development, HTTP, and teamwork in the process.",
+      "madeWith": "Django",
+      "year": "2017-04-01",
+      "github": "http://github.com/CMPUT404WIN17BUMBLEBEE/CMPUT404-project-socialdistribution",
+      "contributors": "Saemorris, Shuming2, Nlovas, Mep6, Michaelyeg, Myself",
+      "completed": "Yes",
+      "type": "School"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "1",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/the-buzz/thebuzz1.png",
+      "associated_piece": "1"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "2",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/the-buzz/thebuzz2.png",
+      "associated_piece": "1"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "3",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/the-buzz/thebuzz3.png",
+      "associated_piece": "1"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "4",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/the-buzz/thebuzz4.png",
+      "associated_piece": "1"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "5",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/the-buzz/thebuzz5.png",
+      "associated_piece": "1"
+    }
+  },
+
+  {
+    "model": "theactualsite.programming",
+    "pk": "2",
+    "fields": {
+      "title": "My Website",
+      "description": "It's the site you're on right now! I made this to get more comfortable with Django and to create a space where I can display both my art and my programming. This also helps me keep a tidy portfolio, highlighting my notable projects from my Github. I tried out fixtures for the first time on this site as a means of quickly loading project/art information all in one spot, then utilizing Django's templates to make it look nice for me. This is also the first time I have used Bootstrap and I've learned a lot about using grids, containers, carousels, and more. It was a lot of fun to make!",
+      "madeWith": "Django/PyCharm",
+      "year": "2017-08-01",
+      "github": "http://github.com/shadownater/personalWebsite",
+      "contributors": "Myself",
+      "completed": "Yes",
+      "type": "Hobby"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "6",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/this-site/mysite1.png",
+      "associated_piece": "2"
+    }
+  },
+
+  {
+    "model": "theactualsite.programming",
+    "pk": "3",
+    "fields": {
+      "title": "The Wolf",
+      "description": "A project my sister and I worked on for Ludum Dare 39. The theme this time was 'running out of power', which we interpreted as the player's life running out over time. We made The Wolf, a point-and-click horror game in which the player has been kidnapped by the Wolf and needs to escape before the Wolf comes and gets you! This was a lot of fun to work on, but we did not finish in the 72 hours of Ludum Dare. We spent more time on it and completed it afterwards. It was our first time using Gamemaker and we learned a lot making this game. We also learned how to edit sounds in Audicity and, because we wanted a surreal art style, we created artwork in ways we had not considered before (ie, using pizza as a texture for a plant). Overall, it was a very fun project to work on and I plan on taking part in another Ludum Dare in the future!",
+      "madeWith": "Gamemaker/Krita/Audicity",
+      "year": "2017-07-01",
+      "github": "http://github.com/WaffleGames/theWolf",
+      "contributors": "Nlovas, Myself",
+      "completed": "Yes",
+      "type": "Hobby"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "7",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/the-wolf/thewolf1.png",
+      "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "8",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/the-wolf/thewolf3.png",
+      "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "9",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/the-wolf/thewolf4.png",
+      "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "10",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/the-wolf/thewolf5.png",
+      "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "11",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/the-wolf/thewolf7.png",
+      "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.programming",
+    "pk": "4",
+    "fields": {
+      "title": "NotABorealis",
+      "description": "NotABorealis is a website made for Startup Edmonton's Student Hackathon 2017. We were allowed to make any creation in the timespan of 24 hours. We decided a space weather website would be cool and set to it! I made the interactive planet information page on this site. This was the first time I used CSS and html for someting more complex, such as animations and transitions. The site can be viewed <a href=\"http://d1swlf98bwhf6n.cloudfront.net/#!/\">here</a>.",
+      "madeWith": "Webstorm",
+      "year": "2017-01-01",
+      "github": "http://github.com/akmcinto/Hacked2017",
+      "contributors": "Akmcinto, Hatchard, Joshuajjwhite, Vamaraju, Myself",
+      "completed": "Yes",
+      "type": "Hobby"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "12",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/notaborealis/notaborealis1.png",
+      "associated_piece": "4"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "13",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/notaborealis/notaborealis2.png",
+      "associated_piece": "4"
+    }
+  },
+
+  {
+    "model": "theactualsite.programming",
+    "pk": "5",
+    "fields": {
+      "title": "Bookwrm",
+      "description": "Our app development project for CMPUT 301: Intro to Software Engineering, Bookwrm is an app for trading books. As a team of six, we made an app that allowed users to sign up, post books, request friends and trades, and more. <a href=\"https://www.youtube.com/watch?v=tYYoPC1Er5o&\">Here</a> is a video of the app in use. This was my first time making an app, and I loved it. It was the first time I became inspired about software development and I felt like I belonged in this field.",
+      "madeWith": "Android Studio",
+      "year": "2015-12-01",
+      "github": "http://github.com/CMPUT301F15T06/GraceHoppers",
+      "contributors": "Nlovas, Ch16, Naichaer, LindaZ1, Ljuarezr, Myself",
+      "completed": "Yes",
+      "type": "School"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "14",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/bookwrm/bookwrm1.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "15",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/bookwrm/bookwrm2.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "16",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/bookwrm/bookwrm3.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "17",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/bookwrm/bookwrm4.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "18",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/bookwrm/bookwrm5.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "19",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/bookwrm/bookwrm6.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "20",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/bookwrm/bookwrm7.png",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.programming",
+    "pk": "6",
+    "fields": {
+      "title": "Share My Chart",
+      "description": "For CMPUT 401: Software Process and Product Management, our team made a website where a user can upload a turtle file and make various graphs out of the data. This was my first time working in web development and in using SPARQL, a RDF query language. This project involved weekly communication with our client, which was a challenging but rewarding experience. This project taught me a lot about requirements, deadlines, and the reality of what it will be like when employed.",
+      "madeWith": "IntelliJ IDEA",
+      "year": "2016-12-01",
+      "github": "http://github.com/shadownater/ShareMyChart",
+      "contributors": "Michaelyeg, Nlovas, Landon-T, YouruiGuo, Myself",
+      "completed": "Yes",
+      "type": "School"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "21",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart7.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "22",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart1.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "23",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart2.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "24",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart3.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "25",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart4.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "26",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart5.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "27",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart6.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.progimg",
+    "pk": "28",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/share-my-chart/sharemychart8.png",
+      "associated_piece": "6"
+    }
+  }
+
+
+]
