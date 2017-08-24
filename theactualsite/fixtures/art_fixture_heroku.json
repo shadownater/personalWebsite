@@ -31,7 +31,7 @@
     "model": "theactualsite.artimg",
     "pk": "2",
     "fields": {
-    "myImg": "/images/dakotaChristmasPaint.png",
+    "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/dakotaChristmasPaint.png",
       "associated_piece": "2"
     }
   },
@@ -49,7 +49,7 @@
     "model": "theactualsite.artimg",
     "pk": "3",
     "fields": {
-      "myImg": "/images/Escapade-Studios.png",
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/Escapade-Studios.png",
       "associated_piece": "3"
     }
   },
@@ -68,7 +68,7 @@
     "model": "theactualsite.artimg",
     "pk": "4",
     "fields": {
-    "myImg": "/images/eternal-seek-logos.png",
+    "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/eternal-seek-logos.png",
       "associated_piece": "4"
     }
   },
@@ -87,7 +87,7 @@
     "model": "theactualsite.artimg",
     "pk": "5",
     "fields": {
-    "myImg": "/images/Halsemon.jpg",
+    "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/Halsemon.jpg",
       "associated_piece": "5"
     }
   },
@@ -106,7 +106,7 @@
     "model": "theactualsite.artimg",
     "pk": "6",
     "fields": {
-    "myImg": "/images/logo-resized-v2-whitebg.png",
+    "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/logo-resized-v2-whitebg.png",
       "associated_piece": "6"
     }
   },
@@ -125,7 +125,7 @@
     "model": "theactualsite.artimg",
     "pk": "7",
     "fields": {
-      "myImg": "/images/lycanroc-resized.png",
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/lycanroc-resized.png",
       "associated_piece": "7"
     }
   },
@@ -144,7 +144,7 @@
     "model": "theactualsite.artimg",
     "pk": "8",
     "fields": {
-      "myImg": "/images/minerva_expressions-resized.png",
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/minerva_expressions-resized.png",
       "associated_piece": "8"
     }
   },
@@ -163,7 +163,7 @@
     "model": "theactualsite.artimg",
     "pk": "9",
     "fields": {
-      "myImg": "/images/monster_villainess_final-resized.png",
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/monster_villainess_final-resized.png",
       "associated_piece": "9"
     }
   },
@@ -171,7 +171,7 @@
     "model": "theactualsite.artimg",
     "pk": "10",
     "fields": {
-      "myImg": "/images/villainess_png-resized.png",
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/villainess_png-resized.png",
       "associated_piece": "9"
     }
   },
@@ -190,7 +190,7 @@
     "model": "theactualsite.artimg",
     "pk": "11",
     "fields": {
-    "myImg": "/images/shion_turnaround-resized.png",
+    "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/shion_turnaround-resized.png",
       "associated_piece": "10"
     }
   },
@@ -209,7 +209,7 @@
     "model": "theactualsite.artimg",
     "pk": "12",
     "fields": {
-      "myImg": "/images/winter.jpg",
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/winter.jpg",
       "associated_piece": "11"
     }
   },
@@ -228,7 +228,7 @@
     "model": "theactualsite.artimg",
     "pk": "13",
     "fields": {
-      "myImg": "/images/seth-and-dakota-resized.png",
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/seth-and-dakota-resized.png",
       "associated_piece": "12"
     }
   },
@@ -247,7 +247,7 @@
     "model": "theactualsite.artimg",
     "pk": "14",
     "fields": {
-      "myImg": "/images/ying_test_2-bg.png",
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/ying_test_2-bg.png",
       "associated_piece": "13"
     }
   },
@@ -266,7 +266,7 @@
     "model": "theactualsite.artimg",
     "pk": "15",
     "fields": {
-      "myImg": "/images/dakota-ref-resized.png",
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/dakota-ref-resized.png",
       "associated_piece": "14"
       }
   }
