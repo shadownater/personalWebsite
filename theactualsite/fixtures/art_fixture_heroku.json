@@ -1,0 +1,274 @@
+[
+  {
+    "model": "theactualsite.art",
+    "pk": "1",
+    "fields": {
+      "title": "Icy",
+      "description": "This is a WIP piece that I hope to return to. It is heavily inspired the song 'Source of Ice' by Hyi. This is a character of mine, Dakota. Drawing ice like this was an interesting challenge to understand how to create the illusion of something partially clear but also faintly shiny.",
+      "madeWith": "Photoshop",
+      "year": "2014-04-01"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "1",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/icy-resized-v3.png",
+      "associated_piece": "1"
+    }
+  },
+    {
+    "model": "theactualsite.art",
+    "pk": "2",
+    "fields": {
+      "title": "Christmas",
+      "description": "A digital painted I made for Christmas in 2016. It was useful for trying out a new painting program, Krita, as well as experimenting with clothing folds/colours. I really like how it turned out! Krita is a viable substitute for Photoshop, though I would like to try using Paint Tool SAI sometime in the future.",
+      "madeWith": "Krita",
+      "year": "2016-12-28"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "2",
+    "fields": {
+    "myImg": "/images/dakotaChristmasPaint.png",
+      "associated_piece": "2"
+    }
+  },
+  {
+    "model": "theactualsite.art",
+    "pk": "3",
+    "fields": {
+      "title": "Escapade Studios Logos",
+      "description": "Samples of logos I created for our CMPUT 250 team at the University of Alberta. As a team of six, we made a game in Neverwinter Nights. I acted as the artist for our team. Our game was nominated for almost every award at the end-of-the-year awards including game of the year and excellence in art and design.",
+      "madeWith": "Illustrator",
+      "year": "2015-02-01"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "3",
+    "fields": {
+      "myImg": "/images/Escapade-Studios.png",
+      "associated_piece": "3"
+    }
+  },
+
+  {
+    "model": "theactualsite.art",
+    "pk": "4",
+    "fields": {
+      "title": "Eternal Seek Logos",
+      "description": "Samples of logos I created for our CMPUT 250 game, Eternal Seek, at the University of Alberta. As a team of six, we made a game in Neverwinter Nights. I acted as the artist for our team. Our game was nominated for almost every award at the end-of-the-year awards including game of the year and excellence in art and design.",
+      "madeWith": "Illustrator",
+      "year": "2015-02-01"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "4",
+    "fields": {
+    "myImg": "/images/eternal-seek-logos.png",
+      "associated_piece": "4"
+    }
+  },
+
+    {
+    "model": "theactualsite.art",
+    "pk": "5",
+    "fields": {
+      "title": "Halsemon",
+      "description": "A traditional drawing I made of Halsemon from Digimon. They are in the color palette of asexuality, a part of the LGBTQ community that does not experience sexual attraction. It is important to bring attention to asexuality in the perspective of love. Asexuality does not always mean aromantic, which seemed suitable for 'Halsemon, the Wings of Love.'",
+      "madeWith": "Pencil crayons/pen",
+      "year": "2016-08-01"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "5",
+    "fields": {
+    "myImg": "/images/Halsemon.jpg",
+      "associated_piece": "5"
+    }
+  },
+
+  {
+    "model": "theactualsite.art",
+    "pk": "6",
+    "fields": {
+      "title": "Team Palette Logos",
+      "description": "Logo choices I made for our team in INT D 450. This was another class in which we became a team of six to make a game (the capstone course for the Game Development certificate offered at the University of Alberta). I acted as the artist for our team.",
+      "madeWith": "Illustrator",
+      "year": "2017-02-01"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "6",
+    "fields": {
+    "myImg": "/images/logo-resized-v2-whitebg.png",
+      "associated_piece": "6"
+    }
+  },
+
+  {
+    "model": "theactualsite.art",
+    "pk": "7",
+    "fields": {
+      "title": "Lycanroc",
+      "description": "I love Pokemon, and Lycanroc has one of the coolest designs of the newest generation. I tried out a backlit lightsource in this picture and it turned out pretty cool!",
+      "madeWith": "Pencil crayons/pen",
+      "year": "2017-05-19"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "7",
+    "fields": {
+      "myImg": "/images/lycanroc-resized.png",
+      "associated_piece": "7"
+    }
+  },
+
+  {
+    "model": "theactualsite.art",
+    "pk": "8",
+    "fields": {
+      "title": "Minerva Expressions",
+      "description": "I attended a <a href=\"https://globalgamejam.org/\">Global Game Jam</a> in January 2016 and worked with a team of five to create a game in 48 hours. Our game followed a young sorcerer who messed up a spell and had to fix the mistake! The game can be downloaded <a href=\"http://globalgamejam.org/2016/games/toil-and-trouble-1\">here</a> if you would like to try it. I made most of the art for our game.",
+      "madeWith": "Photoshop",
+      "year": "2016-01-28"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "8",
+    "fields": {
+      "myImg": "/images/minerva_expressions-resized.png",
+      "associated_piece": "8"
+    }
+  },
+
+  {
+    "model": "theactualsite.art",
+    "pk": "9",
+    "fields": {
+      "title": "Dr. Kazkaza",
+      "description": "The villianess from our INT D 450 game, 影 (Ying). She changes herself into her monster form as the final boss for our protagonist, Shion. Her boss battle can be seen <a href=\"https://www.youtube.com/watch?v=EWt2x0TXXiQ\">here</a>.",
+      "madeWith": "Krita",
+      "year": "2017-03-01"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "9",
+    "fields": {
+      "myImg": "/images/monster_villainess_final-resized.png",
+      "associated_piece": "9"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "10",
+    "fields": {
+      "myImg": "/images/villainess_png-resized.png",
+      "associated_piece": "9"
+    }
+  },
+
+  {
+    "model": "theactualsite.art",
+    "pk": "10",
+    "fields": {
+      "title": "Shion Turnaround",
+      "description": "I designed the androgynous character Shion for our INTD 450 game, 影 (Ying). The game is a top-down puzzler where Shion awakens without any memories but two new, strange mutations and no answers... A playthrough of the game can be viewed <a href=\"https://www.youtube.com/watch?v=wvt7dP76VgE&\">here</a> and <a href=\"https://www.youtube.com/watch?v=EWt2x0TXXiQ\">here</a>.",
+      "madeWith": "Krita",
+      "year": "2017-02-01"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "11",
+    "fields": {
+    "myImg": "/images/shion_turnaround-resized.png",
+      "associated_piece": "10"
+    }
+  },
+
+  {
+    "model": "theactualsite.art",
+    "pk": "11",
+    "fields": {
+      "title": "Winter",
+      "description": "A picture of my character, Dakota, in winter. This was a picture I made without the use of pens. Making the scarf took a lot of time and planning to achieve the right flow.",
+      "madeWith": "Pencil Crayons",
+      "year": "2013-12-28"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "12",
+    "fields": {
+      "myImg": "/images/winter.jpg",
+      "associated_piece": "11"
+    }
+  },
+
+  {
+    "model": "theactualsite.art",
+    "pk": "12",
+    "fields": {
+      "title": "Seth and Dakota",
+      "description": "A WIP I have of my two characters, Seth and Dakota. I plan on coming back to this piece, but somewhere along the line of updating my OS, my Photoshop perished. I've now switched to Krita for the time being and it will have to be completed in that program now. It was inspired by Tidal Waves by Itro.",
+      "madeWith": "Krita",
+      "year": "2016-05-01"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "13",
+    "fields": {
+      "myImg": "/images/seth-and-dakota-resized.png",
+      "associated_piece": "12"
+    }
+  },
+
+  {
+    "model": "theactualsite.art",
+    "pk": "13",
+    "fields": {
+      "title": "Ying Logos",
+      "description": "The possible logo designs I made for our INT D 450 game, 影 (Ying). I am currently learning Chinese, so this was good practice for me! I tried to capture the essence of our main character, Shion, and their snake-like mutation.",
+      "madeWith": "Illustrator",
+      "year": "2017-03-01"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "14",
+    "fields": {
+      "myImg": "/images/ying_test_2-bg.png",
+      "associated_piece": "13"
+    }
+  },
+
+  {
+    "model": "theactualsite.art",
+    "pk": "14",
+    "fields": {
+      "title": "Dakota Reference Sheet",
+      "description": "This is a reference sheet for my character, Dakota! He's one of my favourite characters to draw. He's a character I connect with and as a result, he hosts a lot of my more emotional artwork.",
+      "madeWith": "Photoshop",
+      "year": "2015-01-18"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "15",
+    "fields": {
+      "myImg": "/images/dakota-ref-resized.png",
+      "associated_piece": "14"
+      }
+  }
+
+]
