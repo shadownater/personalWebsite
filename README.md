@@ -23,6 +23,6 @@ Use `heroku ps`
 The site uses fixtures, so add them appropriately into art_fixture_heroku.json file.
 
 The command to load them into the local db is
-`manage.py theactualsite/fixtures/art_fixture_heroku`  
+`manage.py loaddata theactualsite/fixtures/art_fixture_heroku`  
 or  
-`manage.py theactualsite/fixtures/code_fixture_heroku`
+`manage.py loaddata theactualsite/fixtures/code_fixture_heroku`
