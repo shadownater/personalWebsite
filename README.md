@@ -20,7 +20,7 @@ Use `heroku ps`
 
 
 #### Loading Data into the Database
-The site uses fixtures, so add them appropriately into art_fixture_heroku.json file.
+The site uses fixtures, so add them appropriately into art_fixture_heroku.json file. Ignore the art_fixture and code_fixture files unless doing something explicitly for local server purposes.
 
 The command to load them into the local db is
 `manage.py loaddata theactualsite/fixtures/art_fixture_heroku`  
