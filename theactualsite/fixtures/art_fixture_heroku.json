@@ -276,7 +276,7 @@
     "fields": {
       "title": "Inktober 2017",
       "description": "Inktober is a daily challenge that takes place in October every year where artists try to complete an inked picture daily, usually following a prompt list. It was quite a challenge to do! I didn't end up finishing but I learned a lot about speed, planning, and time management. I even tried to add colour to some, which was tricky because I do not use copics a lot. See my instagram (shadownater64) for more details on each piece, since there are too many to go over here.",
-      "madeWith": "Markers/Copics",
+      "madeWith": "Pen/copics/gel pen",
       "year": "2017-10-01"
     }
   },
@@ -375,6 +375,305 @@
       "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-12-shattered.jpg",
       "associated_piece": "15"
       }
+  },
+  {
+    "model": "theactualsite.art",
+    "pk": "16",
+    "fields": {
+      "title": "Inktober 2018",
+      "description": "Another entry into the Inktober challenge! Inktober is a daily challenge that takes place in October every year where artists try to complete an inked picture daily, usually following a prompt list. Unlike last year, I made sure not to colour anything, it took WAY to long! I made it a few days longer during this session of the challenge but then consciously stopped due to life issues that required my attention, otherwise I would have kept on going! See my instagram (shadownater64) for more details on each piece, since there are too many to go over here.",
+      "madeWith": "Pen/gel pen",
+      "year": "2018-10-01"
+    }
+  },
+    {
+    "model": "theactualsite.artimg",
+    "pk": "28",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-1-poisionous.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "29",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-2-tranquil.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "30",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-3-roasted.jpg",
+      "associated_piece": "16"
+      }
+  },
+{
+    "model": "theactualsite.artimg",
+    "pk": "31",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-4-spell.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "32",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-5-chicken.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "33",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-6-drooling.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "34",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-7-exhausting.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "35",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-8-star.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "36",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-9-precious.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "37",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-10-flowing.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "38",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-11-cruel.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "39",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-12-whale.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "40",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-13-guarded.jpg",
+      "associated_piece": "16"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "41",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2018/inktober-day-14-clock.jpg",
+      "associated_piece": "16"
+      }
+  },
+    {
+    "model": "theactualsite.art",
+    "pk": "17",
+    "fields": {
+      "title": "Yato's Swords",
+      "description": "I finished Yato’s swords in time for Otafest! 😊 I made them in a very solid, work-on-it-from-day-to-night week. It was my first time working with balsa wood and it’s a pretty nice material for props. The fabric pieces ‘float’ around the sword with the help of a wire. There was originally going to be two wires per fabric piece, but making them bend the same way together was nearly impossible so I got rid of one, which turned out to be a very good choice! It came out a bit rough despite ironing the fabric beforehand but it looks rough in canon anyways.",
+      "madeWith": "Balsa wood/fabric/wire",
+      "year": "2018-05-16"
+    }
+  },
+    {
+    "model": "theactualsite.artimg",
+    "pk": "42",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/yatos-swords/yatos-swords-1.jpg",
+      "associated_piece": "17"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "43",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/yatos-swords/yatos-swords-2.jpg",
+      "associated_piece": "17"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "44",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/yatos-swords/yatos-swords-3.jpg",
+      "associated_piece": "17"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "45",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/yatos-swords/yatos-swords-4.jpg",
+      "associated_piece": "17"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "46",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/yatos-swords/yatos-swords-5.jpg",
+      "associated_piece": "17"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "47",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/yatos-swords/yatos-swords-6.jpg",
+      "associated_piece": "17"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "48",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/yatos-swords/yatos-swords-7.jpg",
+      "associated_piece": "17"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "49",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/yatos-swords/yatos-swords-8.jpg",
+      "associated_piece": "17"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "50",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/yatos-swords/yatos-swords-9.jpg",
+      "associated_piece": "17"
+      }
+  },
+  {
+    "model": "theactualsite.art",
+    "pk": "18",
+    "fields": {
+      "title": "Compliance",
+      "description": "This picture was inspired by the behaviour of some people in my life during the time of its creation. I had been seeing aspects of my past come up in people I know. As much as I'd like to help, I have to let people make their own mistakes and grow. It made me feel very stuck in place, which I hoped to reflect in this piece.",
+      "madeWith": "Pen/pencil crayons/gel pen",
+      "year": "2018-03-14"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "51",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/compliance.jpg",
+      "associated_piece": "18"
+      }
+  },
+  {
+    "model": "theactualsite.art",
+    "pk": "19",
+    "fields": {
+      "title": "Xander",
+      "description": "I drew this for a friend who was going through some tough times, but I knew that they would be strong like Xander and make it through!",
+      "madeWith": "Pen/pencil crayons",
+      "year": "2017-11-15"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "52",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/xander.JPG",
+      "associated_piece": "19"
+      }
+  },
+  {
+    "model": "theactualsite.art",
+    "pk": "20",
+    "fields": {
+      "title": "Yato",
+      "description": "A picture of Yato from Noragami, one of my favourite characters ever. I tried out a perspective technique in this one, it sort of turned out, though I wish I could have pushed it further. I also tried out gel pens for shiny bits, pretty neat! Overall, I wish the colours didn't turn out so dark in this picture, but it was an interesting experiment.",
+      "madeWith": "Pen/pencil crayons",
+      "year": "2017-09-09"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "53",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/yato.jpg",
+      "associated_piece": "20"
+      }
+  },
+  {
+    "model": "theactualsite.art",
+    "pk": "21",
+    "fields": {
+      "title": "My Hero Academia Heads",
+      "description": "These 3 I'm hoping to try selling at an artist alley at some point! I was aiming to try being in artist alley for Taste of Animethon in January 2018, but the con is no longer running. My Hero Academia is my entire life so of course I'd do some art of them! Sorry it's got a gross watermark. They took much longer to make than I'd planned but life has been happening and that's ok, I'll get it done when I can! I might come back to fix Todoroki at some point, something is off about him.",
+      "madeWith": "Krita",
+      "year": "2018-09-16"
+    }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "54",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/bnha-heads/bnha-heads.jpg",
+      "associated_piece": "21"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "55",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/bnha-heads/bnha-heads-deku.jpg",
+      "associated_piece": "21"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "56",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/bnha-heads/bnha-heads-bakugo.jpg",
+      "associated_piece": "21"
+      }
+  },
+  {
+    "model": "theactualsite.artimg",
+    "pk": "57",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/bnha-heads/bnha-heads-todoroki.jpg",
+      "associated_piece": "21"
+      }
   }
-
 ]
