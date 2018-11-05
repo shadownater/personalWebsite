@@ -26,3 +26,9 @@ The command to load them into the local db is
 `manage.py loaddata theactualsite/fixtures/art_fixture_heroku`  
 or  
 `manage.py loaddata theactualsite/fixtures/code_fixture_heroku`
+
+If you are loading data into the remote db, you're first going to want to push the fixture file to it using
+`git push heroku master`
+
+Then, you will use
+`heroku run python manage.py loaddata theactualsite/fixtures/art_fixture_heroku`
