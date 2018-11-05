@@ -269,6 +269,112 @@
       "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/dakota-ref-resized.png",
       "associated_piece": "14"
       }
+  },
+  {
+    "model": "theactualsite.art",
+    "pk": "15",
+    "fields": {
+      "title": "Inktober 2017",
+      "description": "Inktober is a daily challenge that takes place in October every year where artists try to complete an inked picture daily, usually following a prompt list. It was quite a challenge to do! I didn't end up finishing but I learned a lot about speed, planning, and time management. I even tried to add colour to some, which was tricky because I do not use copics a lot. See my instagram (shadownater64) for more details on each piece, since there are too many to go over here.",
+      "madeWith": "Markers/Copics",
+      "year": "2017-10-01"
+    }
+  },
+    {
+    "model": "theactualsite.artimg",
+    "pk": "16",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-1-swift.jpg",
+      "associated_piece": "15"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "17",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-2-divided.jpg",
+      "associated_piece": "15"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "18",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-3-entei.jpg",
+      "associated_piece": "15"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "19",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-4-underwater.jpg",
+      "associated_piece": "15"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "20",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-5-long.jpg",
+      "associated_piece": "15"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "21",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-6-sword.jpg",
+      "associated_piece": "15"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "22",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-7-shy.jpg",
+      "associated_piece": "15"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "23",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-8-crooked.jpg",
+      "associated_piece": "15"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "24",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-9-screech.jpg",
+      "associated_piece": "15"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "25",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-10-gigantic.jpg",
+      "associated_piece": "15"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "26",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-11-run.jpg",
+      "associated_piece": "15"
+      }
+  },
+      {
+    "model": "theactualsite.artimg",
+    "pk": "27",
+    "fields": {
+      "myImg": "https://s3.us-east-2.amazonaws.com/portfoliopics/inktober-2017/inktober-day-12-shattered.jpg",
+      "associated_piece": "15"
+      }
   }
 
 ]
