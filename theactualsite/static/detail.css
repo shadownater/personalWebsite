@@ -10,6 +10,7 @@ August 19, 2017
 */
 .carousel-inner > .item > img {
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .col-md-4, .col-md-8{
@@ -170,4 +171,12 @@ li{
     -1px 1px 0 white,
     1px 1px 0 white;
     transition: 0.2s linear background;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.image-resizing{
+    max-height: 500px;
 }

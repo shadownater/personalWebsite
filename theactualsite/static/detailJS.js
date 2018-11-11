@@ -5,7 +5,7 @@
 
 
 //this function will make the carousel the appropriate min-height for the image
-
+/*
 var myImages = $(".imageResizing");
 
 var maxHeight = 0;
@@ -18,3 +18,4 @@ for(var i = 0; i < myImages.length; i++){
 }
 
 $("#picCarousel").css('min-height', maxHeight);
+    */
