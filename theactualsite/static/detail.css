@@ -8,9 +8,13 @@ https://stackoverflow.com/users/1517028/atrepp
 https://stackoverflow.com/questions/10591422/bootstrap-carousel-image-doesnt-align-properly
 August 19, 2017
 */
+
 .carousel-inner > .item > img {
     margin: 0 auto;
     margin-top: 20px;
+    width: auto;
+    /*height: 500px;*/
+    max-height: 500px;
 }
 
 .col-md-4, .col-md-8{
@@ -177,6 +181,9 @@ li{
     margin-bottom: 0px;
 }
 
-.image-resizing{
-    max-height: 500px;
+@media (max-width: 768px) {
+    .carousel-inner > .item > img{
+        /*height: 300px;*/
+        max-height: 300px;
+    }
 }
