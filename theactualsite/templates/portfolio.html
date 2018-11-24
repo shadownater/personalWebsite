@@ -36,12 +36,12 @@
     {% if art_list %}
     {% for artpiece in art_list %}
         <!-- New line every 3 cards -->
-        {% if forloop.counter0|divisibleby:3 %}
+        <!--{% if forloop.counter0|divisibleby:3 %}
             </div><div class="container artboxes">
-        {%  endif %}
+        {%  endif %}-->
        <!-- Make a separate card for each piece. Gonna keep with Bootstrap 3 so gonna mimic 4's cards -->
 
-        <div class="col-md-4">
+        <div class="padded">
             <div class="handmadeCrop">
                 <a href ="/art/{{ artpiece.associated_piece.id }}">
                     <img class="cardImg" src="{{ artpiece.myImg }}" alt="Card image cap">

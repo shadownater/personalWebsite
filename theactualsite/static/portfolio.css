@@ -4,6 +4,10 @@
     padding-right: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /*
@@ -22,6 +26,38 @@ https://bavotasan.com/2011/a-simple-fade-with-css3/
     transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
+}
+
+@media(max-width: 1199px){
+    .handmadeCrop{
+        width: 400px;
+        height:400px;
+    }
+}
+
+@media(max-width: 991px){
+    .handmadeCrop{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media(max-width: 707px){
+    .handmadeCrop {
+        height: 450px;
+        width: 450px;
+    }
+}
+
+@media(max-width: 550px){
+    .handmadeCrop{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+.padded{
+    padding: 15px;
 }
 
 h4{
@@ -90,6 +126,11 @@ img{
     font-family: 'Dosis', sans-serif;
     padding-left: 20px;
     line-height: 40%;
+}
+@media(max-width: 1199px){
+    #sortingText{
+        text-align: center;
+    }
 }
 
 hr{

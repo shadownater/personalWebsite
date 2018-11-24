@@ -32,23 +32,22 @@
     </div>
 
 
-<div class="container artboxes">
-
 
     {% if prog_list_h %}
 
-        <div class="col-md-12">
+        <div class="container artboxes">
             <h2 class="display-3" id="sortingText">Non-School Projects</h2>
         </div>
+        <div class="container artboxes">
 
         {% for progpiece in prog_list_h %}
                 <!-- New line every 3 cards -->
-                {% if forloop.counter0|divisibleby:3 %}
+                <!--{% if forloop.counter0|divisibleby:3 %}
                     </div><div class="container artboxes">
-                {%  endif %}
+                {%  endif %}-->
                <!-- Make a separate card for each piece. Gonna keep with Bootstrap 3 so gonna mimic 4's cards -->
 
-                <div class="col-md-4">
+                <div class="padded">
                     <div class="handmadeCrop">
                         <a href ="/programming/{{ progpiece.associated_piece.id }}">
                             <img class="cardImg" src="{{ progpiece.myImg }}" alt="Card image cap">
@@ -62,26 +61,30 @@
         {% endfor %}
 
     {% else %}
-    <p>No non-school coding projects currently available.</p>
+        <div class="container artboxes">
+            <p>No non-school coding projects currently available.</p>
     {% endif %}
-
-    <div class="col-md-12 hrLine">
+    </div>
+</div>
+    <div class="container artboxes hrLine">
         <hr>
     </div>
 
-    {%  if prog_list_s %}
 
-        <div class="col-md-12">
+    {% if prog_list_s %}
+
+        <div class="container artboxes">
             <h2 class="display-3" id="sortingText">School Projects</h2>
         </div>
+        <div class="container artboxes">
         {% for progpiece in prog_list_s %}
                 <!-- New line every 3 cards -->
-                {% if forloop.counter0|divisibleby:3 %}
+                <!--{% if forloop.counter0|divisibleby:3 %}
                     </div><div class="container artboxes">
-                {%  endif %}
+                {%  endif %} -->
                <!-- Make a separate card for each piece. Gonna keep with Bootstrap 3 so gonna mimic 4's cards -->
 
-                <div class="col-md-4">
+                <div class="padded">
                     <div class="handmadeCrop">
                         <a href ="/programming/{{ progpiece.associated_piece.id }}">
                             <img class="cardImg" src="{{ progpiece.myImg }}" alt="Card image cap">
@@ -95,9 +98,10 @@
         {% endfor %}
 
     {% else %}
-    <p>No school coding projects currently available.</p>
+        <div class="container artboxes">
+            <p>No school coding projects currently available.</p>
     {% endif %}
-
+    </div>
 
 </div>
 
