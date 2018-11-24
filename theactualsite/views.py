@@ -102,3 +102,7 @@ def itemExists(a, list):
             result = True
             return result
     return False
+
+#return the robots.txt page for those pesky robits
+def robots(request):
+    return render(request, 'robots.txt')

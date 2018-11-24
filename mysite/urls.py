@@ -3,6 +3,7 @@ from django.contrib import admin
 from theactualsite import views
 from django.conf.urls.static import static
 from django.conf import settings
+from django.views.generic import TemplateView
 
 
 urlpatterns = [
@@ -16,6 +17,7 @@ urlpatterns = [
     url(r'^art/(?P<artpiece_id>[0-9]+)$', views.piece_detail, name='piece_detail'),
     url(r'^programming/(?P<progpiece_id>[0-9]+)$', views.p_piece_detail, name='p_piece_detail'),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^robots.txt$', TemplateView.as_view(template_name='robots.txt', content_type="text/plain")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
