@@ -20,6 +20,13 @@
     overflow-y:scroll;
 }
 
+@media(max-width: 550px){
+    #paragraph{
+        height: auto;
+        overflow-y: auto;
+    }
+}
+
 .introcontainer{
     vertical-align: bottom;
 }
@@ -60,6 +67,17 @@ https://stackoverflow.com/questions/32477563/css-fit-rounded-circle-image-do-not
     background-position: center center;
 
     border: solid 1.5em black;
+}
+
+@media (max-width: 550px){
+    .myimg{
+        width: 300px;
+        height: 300px;
+        -webkit-border-radius: 300px;
+        -moz-border-radius: 300px;
+        border-radius: 300px;
+        border: none;
+    }
 }
 
 #artlink, #homelink, #programminglink{
