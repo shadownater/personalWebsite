@@ -7,3 +7,4 @@ staticfiles
 .idea
 theactualsite/migrations/*
 mysite/images/
+/myenv
